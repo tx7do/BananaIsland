@@ -1,73 +1,162 @@
 fileFormatVersion: 2
 guid: ac2d4461d0542ff49a23475afe5846c9
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Banana Island NEW
-    21300002: Krate 1
-    21300004: Krate 2
-    21300006: Gate Left Closed
-    21300008: Gate Left Open
-    21300010: Gate Front Open
-    21300012: Gate Front Closed
-    21300014: Suncobran
-    21300016: Suncobran Senka
-    21300018: Kovceg Zatvoren
-    21300020: Kovceg Otvoren
-    21300022: Home
-    21300024: BankInApp
-    21300026: Shop
-    21300028: FreeCoins
-    21300030: SvetloPlava
-    21300032: TamnoPlava
-    21300034: NajtamnijePlava
-    21300036: Palma1
-    21300038: Palma2
-    21300040: Palma3
-    21300042: Palma4
-    21300044: Senka full crna
-    21300046: DrvoObicno1
-    21300048: DrvoObicno2
-    21300050: DrvoObicno3
-    21300052: DrvcePustoOstrvo1
-    21300054: DrvcePustoOstrvo2
-    21300056: Kovceg
-    21300058: Plava Prelaz
-    21300060: Savana Island NEW
-    21300062: Katanac
-    21300064: Facebook_Picture
-    21300066: ThreeStar
-    21300068: TwoStar
-    21300070: OneStar
-    21300072: OpenLevel
-    21300074: WatchVideo
-    21300076: RedArrow
-    21300078: BankInAppBanana Banana
-  serializedVersion: 2
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Banana Island NEW
+  - first:
+      213: 21300002
+    second: Krate 1
+  - first:
+      213: 21300004
+    second: Krate 2
+  - first:
+      213: 21300006
+    second: Gate Left Closed
+  - first:
+      213: 21300008
+    second: Gate Left Open
+  - first:
+      213: 21300010
+    second: Gate Front Open
+  - first:
+      213: 21300012
+    second: Gate Front Closed
+  - first:
+      213: 21300014
+    second: Suncobran
+  - first:
+      213: 21300016
+    second: Suncobran Senka
+  - first:
+      213: 21300018
+    second: Kovceg Zatvoren
+  - first:
+      213: 21300020
+    second: Kovceg Otvoren
+  - first:
+      213: 21300022
+    second: Home
+  - first:
+      213: 21300024
+    second: BankInApp
+  - first:
+      213: 21300026
+    second: Shop
+  - first:
+      213: 21300028
+    second: FreeCoins
+  - first:
+      213: 21300030
+    second: SvetloPlava
+  - first:
+      213: 21300032
+    second: TamnoPlava
+  - first:
+      213: 21300034
+    second: NajtamnijePlava
+  - first:
+      213: 21300036
+    second: Palma1
+  - first:
+      213: 21300038
+    second: Palma2
+  - first:
+      213: 21300040
+    second: Palma3
+  - first:
+      213: 21300042
+    second: Palma4
+  - first:
+      213: 21300044
+    second: Senka full crna
+  - first:
+      213: 21300046
+    second: DrvoObicno1
+  - first:
+      213: 21300048
+    second: DrvoObicno2
+  - first:
+      213: 21300050
+    second: DrvoObicno3
+  - first:
+      213: 21300052
+    second: DrvcePustoOstrvo1
+  - first:
+      213: 21300054
+    second: DrvcePustoOstrvo2
+  - first:
+      213: 21300056
+    second: Kovceg
+  - first:
+      213: 21300058
+    second: Plava Prelaz
+  - first:
+      213: 21300060
+    second: Savana Island NEW
+  - first:
+      213: 21300062
+    second: Katanac
+  - first:
+      213: 21300064
+    second: Facebook_Picture
+  - first:
+      213: 21300066
+    second: ThreeStar
+  - first:
+      213: 21300068
+    second: TwoStar
+  - first:
+      213: 21300070
+    second: OneStar
+  - first:
+      213: 21300072
+    second: OpenLevel
+  - first:
+      213: 21300074
+    second: WatchVideo
+  - first:
+      213: 21300076
+    second: RedArrow
+  - first:
+      213: 21300078
+    second: BankInAppBanana Banana
+  externalObjects: {}
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
   seamlessCubemap: 0
   textureFormat: 56
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
+    serializedVersion: 2
+    filterMode: 1
     aniso: 1
-    mipBias: -1
-    wrapMode: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -75,19 +164,50 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 0
   alphaIsTransparency: 1
-  textureType: 5
-  buildTargetSettings:
-  - buildTarget: iPhone
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    textureFormat: 33
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 33
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: Banana Island NEW
+    - serializedVersion: 2
+      name: Banana Island NEW
       rect:
         serializedVersion: 2
         x: 11
@@ -95,9 +215,20 @@ TextureImporter:
         width: 1577
         height: 1027
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Krate 1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krate 1
       rect:
         serializedVersion: 2
         x: 1600
@@ -105,9 +236,20 @@ TextureImporter:
         width: 53
         height: 46
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Krate 2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krate 2
       rect:
         serializedVersion: 2
         x: 1655
@@ -115,9 +257,20 @@ TextureImporter:
         width: 68
         height: 61
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Gate Left Closed
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Left Closed
       rect:
         serializedVersion: 2
         x: 1726
@@ -125,9 +278,20 @@ TextureImporter:
         width: 81
         height: 86
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Gate Left Open
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Left Open
       rect:
         serializedVersion: 2
         x: 1724
@@ -135,9 +299,20 @@ TextureImporter:
         width: 118
         height: 113
       alignment: 9
-      pivot: {x: .558247209, y: .555536568}
+      pivot: {x: 0.5582472, y: 0.55553657}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Gate Front Open
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Front Open
       rect:
         serializedVersion: 2
         x: 1810
@@ -145,9 +320,20 @@ TextureImporter:
         width: 128
         height: 75
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Gate Front Closed
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Front Closed
       rect:
         serializedVersion: 2
         x: 1942
@@ -155,9 +341,20 @@ TextureImporter:
         width: 106
         height: 70
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Suncobran
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suncobran
       rect:
         serializedVersion: 2
         x: 1846
@@ -165,9 +362,20 @@ TextureImporter:
         width: 51
         height: 59
       alignment: 9
-      pivot: {x: .21283558, y: .0542612895}
+      pivot: {x: 0.21283558, y: 0.05426129}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Suncobran Senka
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suncobran Senka
       rect:
         serializedVersion: 2
         x: 1850
@@ -175,9 +383,20 @@ TextureImporter:
         width: 46
         height: 17
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Kovceg Zatvoren
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kovceg Zatvoren
       rect:
         serializedVersion: 2
         x: 1906
@@ -185,9 +404,20 @@ TextureImporter:
         width: 68
         height: 47
       alignment: 9
-      pivot: {x: .539757252, y: .387321323}
+      pivot: {x: 0.53975725, y: 0.38732132}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Kovceg Otvoren
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kovceg Otvoren
       rect:
         serializedVersion: 2
         x: 1912
@@ -195,9 +425,20 @@ TextureImporter:
         width: 56
         height: 43
       alignment: 9
-      pivot: {x: .454432905, y: .196210399}
+      pivot: {x: 0.4544329, y: 0.1962104}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Home
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Home
       rect:
         serializedVersion: 2
         x: 1868
@@ -205,9 +446,20 @@ TextureImporter:
         width: 178
         height: 183
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BankInApp
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BankInApp
       rect:
         serializedVersion: 2
         x: 1883
@@ -215,9 +467,20 @@ TextureImporter:
         width: 162
         height: 169
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Shop
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shop
       rect:
         serializedVersion: 2
         x: 1890
@@ -225,9 +488,20 @@ TextureImporter:
         width: 156
         height: 205
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: FreeCoins
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeCoins
       rect:
         serializedVersion: 2
         x: 1857
@@ -235,9 +509,20 @@ TextureImporter:
         width: 191
         height: 280
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SvetloPlava
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SvetloPlava
       rect:
         serializedVersion: 2
         x: 1590
@@ -245,9 +530,20 @@ TextureImporter:
         width: 130
         height: 131
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TamnoPlava
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TamnoPlava
       rect:
         serializedVersion: 2
         x: 1590
@@ -255,9 +551,20 @@ TextureImporter:
         width: 130
         height: 130
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: NajtamnijePlava
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NajtamnijePlava
       rect:
         serializedVersion: 2
         x: 1590
@@ -265,9 +572,20 @@ TextureImporter:
         width: 130
         height: 130
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Palma1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Palma1
       rect:
         serializedVersion: 2
         x: 1725
@@ -275,9 +593,20 @@ TextureImporter:
         width: 64
         height: 74
       alignment: 9
-      pivot: {x: .857074738, y: .0858154297}
+      pivot: {x: 0.85707474, y: 0.08581543}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Palma2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Palma2
       rect:
         serializedVersion: 2
         x: 1795
@@ -285,9 +614,20 @@ TextureImporter:
         width: 67
         height: 90
       alignment: 9
-      pivot: {x: .430864602, y: .0509526692}
+      pivot: {x: 0.4308646, y: 0.05095267}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Palma3
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Palma3
       rect:
         serializedVersion: 2
         x: 1724
@@ -295,9 +635,20 @@ TextureImporter:
         width: 49
         height: 71
       alignment: 9
-      pivot: {x: .534217417, y: .0567495003}
+      pivot: {x: 0.5342174, y: 0.0567495}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Palma4
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Palma4
       rect:
         serializedVersion: 2
         x: 1779
@@ -305,9 +656,20 @@ TextureImporter:
         width: 37
         height: 54
       alignment: 9
-      pivot: {x: .617193758, y: .0698286593}
+      pivot: {x: 0.61719376, y: 0.06982866}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Senka full crna
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Senka full crna
       rect:
         serializedVersion: 2
         x: 1823
@@ -315,9 +677,20 @@ TextureImporter:
         width: 41
         height: 41
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: DrvoObicno1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrvoObicno1
       rect:
         serializedVersion: 2
         x: 1723
@@ -325,9 +698,20 @@ TextureImporter:
         width: 54
         height: 78
       alignment: 9
-      pivot: {x: .538406372, y: .118836224}
+      pivot: {x: 0.5384064, y: 0.118836224}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: DrvoObicno2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4305410000000000800000000000000
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrvoObicno2
       rect:
         serializedVersion: 2
         x: 1777
@@ -335,9 +719,20 @@ TextureImporter:
         width: 48
         height: 67
       alignment: 9
-      pivot: {x: .516459584, y: .175131902}
+      pivot: {x: 0.5164596, y: 0.1751319}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: DrvoObicno3
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05305410000000000800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrvoObicno3
       rect:
         serializedVersion: 2
         x: 1830
@@ -345,9 +740,20 @@ TextureImporter:
         width: 51
         height: 76
       alignment: 9
-      pivot: {x: .536901116, y: .16909869}
+      pivot: {x: 0.5369011, y: 0.16909869}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: DrvcePustoOstrvo1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25305410000000000800000000000000
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrvcePustoOstrvo1
       rect:
         serializedVersion: 2
         x: 1722
@@ -355,9 +761,20 @@ TextureImporter:
         width: 30
         height: 34
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: DrvcePustoOstrvo2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45305410000000000800000000000000
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrvcePustoOstrvo2
       rect:
         serializedVersion: 2
         x: 1752
@@ -365,9 +782,20 @@ TextureImporter:
         width: 38
         height: 14
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Kovceg
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65305410000000000800000000000000
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kovceg
       rect:
         serializedVersion: 2
         x: 1976
@@ -375,9 +803,20 @@ TextureImporter:
         width: 70
         height: 61
       alignment: 9
-      pivot: {x: .465162486, y: .342226088}
+      pivot: {x: 0.4651625, y: 0.3422261}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Plava Prelaz
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85305410000000000800000000000000
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plava Prelaz
       rect:
         serializedVersion: 2
         x: 1590
@@ -385,9 +824,20 @@ TextureImporter:
         width: 289
         height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Savana Island NEW
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5305410000000000800000000000000
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Savana Island NEW
       rect:
         serializedVersion: 2
         x: 13
@@ -395,9 +845,20 @@ TextureImporter:
         width: 1569
         height: 1006
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Katanac
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5305410000000000800000000000000
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katanac
       rect:
         serializedVersion: 2
         x: 1904
@@ -405,9 +866,20 @@ TextureImporter:
         width: 79
         height: 68
       alignment: 9
-      pivot: {x: .448597997, y: .504264414}
+      pivot: {x: 0.448598, y: 0.5042644}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Facebook_Picture
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5305410000000000800000000000000
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Facebook_Picture
       rect:
         serializedVersion: 2
         x: 1791
@@ -415,9 +887,20 @@ TextureImporter:
         width: 94
         height: 106
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ThreeStar
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06305410000000000800000000000000
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThreeStar
       rect:
         serializedVersion: 2
         x: 1586
@@ -425,9 +908,20 @@ TextureImporter:
         width: 142
         height: 113
       alignment: 9
-      pivot: {x: .5, y: .300000012}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TwoStar
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26305410000000000800000000000000
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TwoStar
       rect:
         serializedVersion: 2
         x: 1729
@@ -435,9 +929,20 @@ TextureImporter:
         width: 142
         height: 113
       alignment: 9
-      pivot: {x: .5, y: .300000012}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: OneStar
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46305410000000000800000000000000
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OneStar
       rect:
         serializedVersion: 2
         x: 1871
@@ -445,9 +950,20 @@ TextureImporter:
         width: 142
         height: 113
       alignment: 9
-      pivot: {x: .5, y: .300000012}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: OpenLevel
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66305410000000000800000000000000
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenLevel
       rect:
         serializedVersion: 2
         x: 1627
@@ -455,9 +971,20 @@ TextureImporter:
         width: 142
         height: 113
       alignment: 9
-      pivot: {x: .5, y: .300000012}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: WatchVideo
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86305410000000000800000000000000
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WatchVideo
       rect:
         serializedVersion: 2
         x: 1747
@@ -465,9 +992,20 @@ TextureImporter:
         width: 132
         height: 169
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RedArrow
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6305410000000000800000000000000
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedArrow
       rect:
         serializedVersion: 2
         x: 1632
@@ -475,9 +1013,20 @@ TextureImporter:
         width: 212
         height: 259
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BankInAppBanana Banana
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6305410000000000800000000000000
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BankInAppBanana Banana
       rect:
         serializedVersion: 2
         x: 1882
@@ -485,7 +1034,31 @@ TextureImporter:
         width: 162
         height: 169
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6305410000000000800000000000000
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

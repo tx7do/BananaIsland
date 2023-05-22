@@ -1,58 +1,117 @@
 fileFormatVersion: 2
 guid: e1f34ee7c228b43ac92c2b359327b8b4
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: B-VulcanoTexture
-    21300002: Mapa Volcano
-    21300004: ThreeStar Volcano
-    21300006: TwoStar Volcano
-    21300008: OneStar Volcano
-    21300010: OpenLevel Volcano
-    21300012: FacebookPicture Volcano
-    21300014: Katanac Volcano
-    21300016: Kovceg Volcano
-    21300018: KovcegOtvoren Volcano
-    21300020: KovcegZatvoren Volcano
-    21300022: Gate Left Closed Volcano
-    21300024: Gate Left Open Volcano
-    21300026: Gate Front Closed Volcano
-    21300028: Gate Front Open Volcano
-    21300030: Svetlo Plava Volcano
-    21300032: Tamno Plava Volcano
-    21300034: Najtamnije Plava Volcano
-    21300036: Plava Prelaz Volcano
-    21300038: BankInApp Volcano
-    21300040: Shop Volcano
-    21300042: WatchVideo Volcano
-    21300044: FreeCoins Volcano
-    21300046: BankInAppBanana Volcano
-    21300048: Mapa Ice
-  serializedVersion: 2
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: B-VulcanoTexture
+  - first:
+      213: 21300002
+    second: Mapa Volcano
+  - first:
+      213: 21300004
+    second: ThreeStar Volcano
+  - first:
+      213: 21300006
+    second: TwoStar Volcano
+  - first:
+      213: 21300008
+    second: OneStar Volcano
+  - first:
+      213: 21300010
+    second: OpenLevel Volcano
+  - first:
+      213: 21300012
+    second: FacebookPicture Volcano
+  - first:
+      213: 21300014
+    second: Katanac Volcano
+  - first:
+      213: 21300016
+    second: Kovceg Volcano
+  - first:
+      213: 21300018
+    second: KovcegOtvoren Volcano
+  - first:
+      213: 21300020
+    second: KovcegZatvoren Volcano
+  - first:
+      213: 21300022
+    second: Gate Left Closed Volcano
+  - first:
+      213: 21300024
+    second: Gate Left Open Volcano
+  - first:
+      213: 21300026
+    second: Gate Front Closed Volcano
+  - first:
+      213: 21300028
+    second: Gate Front Open Volcano
+  - first:
+      213: 21300030
+    second: Svetlo Plava Volcano
+  - first:
+      213: 21300032
+    second: Tamno Plava Volcano
+  - first:
+      213: 21300034
+    second: Najtamnije Plava Volcano
+  - first:
+      213: 21300036
+    second: Plava Prelaz Volcano
+  - first:
+      213: 21300038
+    second: BankInApp Volcano
+  - first:
+      213: 21300040
+    second: Shop Volcano
+  - first:
+      213: 21300042
+    second: WatchVideo Volcano
+  - first:
+      213: 21300044
+    second: FreeCoins Volcano
+  - first:
+      213: 21300046
+    second: BankInAppBanana Volcano
+  - first:
+      213: 21300048
+    second: Mapa Ice
+  externalObjects: {}
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
   seamlessCubemap: 0
   textureFormat: 56
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
+    serializedVersion: 2
+    filterMode: 1
     aniso: 1
-    mipBias: -1
-    wrapMode: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -60,19 +119,50 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 0
   alphaIsTransparency: 1
-  textureType: 5
-  buildTargetSettings:
-  - buildTarget: iPhone
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: 33
+    textureCompression: 0
     compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: Mapa Volcano
+    - serializedVersion: 2
+      name: Mapa Volcano
       rect:
         serializedVersion: 2
         x: 6
@@ -80,9 +170,20 @@ TextureImporter:
         width: 1556
         height: 986
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ThreeStar Volcano
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThreeStar Volcano
       rect:
         serializedVersion: 2
         x: 1586
@@ -90,9 +191,20 @@ TextureImporter:
         width: 142
         height: 113
       alignment: 9
-      pivot: {x: .5, y: .300000012}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TwoStar Volcano
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TwoStar Volcano
       rect:
         serializedVersion: 2
         x: 1729
@@ -100,9 +212,20 @@ TextureImporter:
         width: 142
         height: 113
       alignment: 9
-      pivot: {x: .5, y: .300000012}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: OneStar Volcano
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OneStar Volcano
       rect:
         serializedVersion: 2
         x: 1871
@@ -110,9 +233,20 @@ TextureImporter:
         width: 142
         height: 113
       alignment: 9
-      pivot: {x: .5, y: .300000012}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: OpenLevel Volcano
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenLevel Volcano
       rect:
         serializedVersion: 2
         x: 1627
@@ -120,9 +254,20 @@ TextureImporter:
         width: 142
         height: 113
       alignment: 9
-      pivot: {x: .5, y: .300000012}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: FacebookPicture Volcano
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FacebookPicture Volcano
       rect:
         serializedVersion: 2
         x: 1791
@@ -130,9 +275,20 @@ TextureImporter:
         width: 94
         height: 106
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Katanac Volcano
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katanac Volcano
       rect:
         serializedVersion: 2
         x: 1904
@@ -140,9 +296,20 @@ TextureImporter:
         width: 79
         height: 68
       alignment: 9
-      pivot: {x: .448597997, y: .504264414}
+      pivot: {x: 0.448598, y: 0.5042644}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Kovceg Volcano
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kovceg Volcano
       rect:
         serializedVersion: 2
         x: 1976
@@ -150,9 +317,20 @@ TextureImporter:
         width: 70
         height: 61
       alignment: 9
-      pivot: {x: .465162486, y: .342226088}
+      pivot: {x: 0.4651625, y: 0.3422261}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: KovcegOtvoren Volcano
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KovcegOtvoren Volcano
       rect:
         serializedVersion: 2
         x: 1912
@@ -160,9 +338,20 @@ TextureImporter:
         width: 56
         height: 43
       alignment: 9
-      pivot: {x: .454432905, y: .196210399}
+      pivot: {x: 0.4544329, y: 0.1962104}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: KovcegZatvoren Volcano
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KovcegZatvoren Volcano
       rect:
         serializedVersion: 2
         x: 1906
@@ -170,9 +359,20 @@ TextureImporter:
         width: 68
         height: 47
       alignment: 9
-      pivot: {x: .539757311, y: .387321293}
+      pivot: {x: 0.5397573, y: 0.3873213}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Gate Left Closed Volcano
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Left Closed Volcano
       rect:
         serializedVersion: 2
         x: 1726
@@ -180,9 +380,20 @@ TextureImporter:
         width: 81
         height: 86
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Gate Left Open Volcano
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Left Open Volcano
       rect:
         serializedVersion: 2
         x: 1724
@@ -190,9 +401,20 @@ TextureImporter:
         width: 118
         height: 113
       alignment: 9
-      pivot: {x: .558247209, y: .555536628}
+      pivot: {x: 0.5582472, y: 0.5555366}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Gate Front Closed Volcano
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Front Closed Volcano
       rect:
         serializedVersion: 2
         x: 1942
@@ -200,9 +422,20 @@ TextureImporter:
         width: 106
         height: 70
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Gate Front Open Volcano
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Front Open Volcano
       rect:
         serializedVersion: 2
         x: 1810
@@ -210,9 +443,20 @@ TextureImporter:
         width: 128
         height: 75
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Svetlo Plava Volcano
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Svetlo Plava Volcano
       rect:
         serializedVersion: 2
         x: 1590
@@ -220,9 +464,20 @@ TextureImporter:
         width: 129
         height: 134
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Tamno Plava Volcano
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tamno Plava Volcano
       rect:
         serializedVersion: 2
         x: 1590
@@ -230,9 +485,20 @@ TextureImporter:
         width: 130
         height: 130
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Najtamnije Plava Volcano
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Najtamnije Plava Volcano
       rect:
         serializedVersion: 2
         x: 1590
@@ -240,9 +506,20 @@ TextureImporter:
         width: 130
         height: 130
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Plava Prelaz Volcano
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plava Prelaz Volcano
       rect:
         serializedVersion: 2
         x: 1590
@@ -250,9 +527,20 @@ TextureImporter:
         width: 289
         height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BankInApp Volcano
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BankInApp Volcano
       rect:
         serializedVersion: 2
         x: 1884
@@ -260,9 +548,20 @@ TextureImporter:
         width: 161
         height: 172
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Shop Volcano
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shop Volcano
       rect:
         serializedVersion: 2
         x: 1890
@@ -270,9 +569,20 @@ TextureImporter:
         width: 156
         height: 205
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: WatchVideo Volcano
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WatchVideo Volcano
       rect:
         serializedVersion: 2
         x: 1747
@@ -280,9 +590,20 @@ TextureImporter:
         width: 132
         height: 169
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: FreeCoins Volcano
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeCoins Volcano
       rect:
         serializedVersion: 2
         x: 1857
@@ -290,9 +611,20 @@ TextureImporter:
         width: 190
         height: 273
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BankInAppBanana Volcano
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BankInAppBanana Volcano
       rect:
         serializedVersion: 2
         x: 1882
@@ -300,9 +632,20 @@ TextureImporter:
         width: 162
         height: 169
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mapa Ice
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4305410000000000800000000000000
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Ice
       rect:
         serializedVersion: 2
         x: 6
@@ -310,7 +653,31 @@ TextureImporter:
         width: 1556
         height: 986
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05305410000000000800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

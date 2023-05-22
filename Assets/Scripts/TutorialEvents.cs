@@ -1,67 +1,74 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class TutorialEvents : MonoBehaviour {
+public class TutorialEvents : MonoBehaviour
+{
+    public static bool postavljenCollider = false;
+    bool helpBool;
+    System.DateTime timeToShowNextElement;
 
-	public static bool postavljenCollider = false;
-	bool helpBool;
-	System.DateTime timeToShowNextElement;
+    void Start()
+    {
+        if (gameObject.name.Contains("1"))
+        {
+            transform.GetChild(0).GetChild(0).Find("AnimationHolder/Tutorial1 Popup/Tutorial Text")
+                .GetComponent<TextMesh>().text = LanguageManager.TutorialTapJump;
+            transform.GetChild(0).GetChild(0).Find("AnimationHolder/Tutorial1 Popup/Tutorial Text")
+                .GetComponent<TextMeshEffects>().RefreshTextOutline(true, true, false);
+        }
+        else if (gameObject.name.Contains("2"))
+        {
+            transform.GetChild(0).GetChild(0).Find("AnimationHolder/Tutorial2 Popup/Tutorial Text")
+                .GetComponent<TextMesh>().text = LanguageManager.TutorialGlide;
+            transform.GetChild(0).GetChild(0).Find("AnimationHolder/Tutorial2 Popup/Tutorial Text")
+                .GetComponent<TextMeshEffects>().RefreshTextOutline(true, true, false);
+        }
+        else if (gameObject.name.Contains("3"))
+        {
+            transform.GetChild(0).GetChild(0).Find("AnimationHolder/Tutorial3 Popup/Tutorial Text")
+                .GetComponent<TextMesh>().text = LanguageManager.TutorialSwipe;
+            transform.GetChild(0).GetChild(0).Find("AnimationHolder/Tutorial3 Popup/Tutorial Text")
+                .GetComponent<TextMeshEffects>().RefreshTextOutline(true, true, false);
+        }
 
-	void Start ()
-	{
-		if(gameObject.name.Contains("1"))
-		{
-			transform.GetChild(0).GetChild(0).Find("AnimationHolder/Tutorial1 Popup/Tutorial Text").GetComponent<TextMesh>().text = LanguageManager.TutorialTapJump;
-			transform.GetChild(0).GetChild(0).Find("AnimationHolder/Tutorial1 Popup/Tutorial Text").GetComponent<TextMeshEffects>().RefreshTextOutline(true,true,false);
-		}
-		else if(gameObject.name.Contains("2"))
-		{
-			transform.GetChild(0).GetChild(0).Find("AnimationHolder/Tutorial2 Popup/Tutorial Text").GetComponent<TextMesh>().text = LanguageManager.TutorialGlide;
-			transform.GetChild(0).GetChild(0).Find("AnimationHolder/Tutorial2 Popup/Tutorial Text").GetComponent<TextMeshEffects>().RefreshTextOutline(true,true,false);
-		}
-		else if(gameObject.name.Contains("3"))
-		{
-			transform.GetChild(0).GetChild(0).Find("AnimationHolder/Tutorial3 Popup/Tutorial Text").GetComponent<TextMesh>().text = LanguageManager.TutorialSwipe;
-			transform.GetChild(0).GetChild(0).Find("AnimationHolder/Tutorial3 Popup/Tutorial Text").GetComponent<TextMeshEffects>().RefreshTextOutline(true,true,false);
-		}
-		this.transform.GetChild(0).gameObject.SetActive(false);
-	}
+        this.transform.GetChild(0).gameObject.SetActive(false);
+    }
 
-	void OnTriggerEnter2D(Collider2D col)
-	{
-		if(col.tag == "Monkey")// && !PlayerPrefs.HasKey("OdgledaoTutorial"))
-		{
-			postavljenCollider = false;
-			Manage.pauseEnabled = false;
-			int koji=0;
-			if(gameObject.name.Contains("1"))
-			{
-				GameObject.FindGameObjectWithTag("Monkey").GetComponent<MonkeyController2D>().KontrolisaniSkok = true;
-				koji=1;
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.tag == "Monkey") // && !PlayerPrefs.HasKey("OdgledaoTutorial"))
+        {
+            postavljenCollider = false;
+            Manage.pauseEnabled = false;
+            int koji = 0;
+            if (gameObject.name.Contains("1"))
+            {
+                GameObject.FindGameObjectWithTag("Monkey").GetComponent<MonkeyController2D>().KontrolisaniSkok = true;
+                koji = 1;
+            }
+            else if (gameObject.name.Contains("2"))
+            {
+                GameObject.FindGameObjectWithTag("Monkey").GetComponent<MonkeyController2D>().Glide = true;
+                koji = 2;
+            }
+            else if (gameObject.name.Contains("3"))
+            {
+                GameObject.FindGameObjectWithTag("Monkey").GetComponent<MonkeyController2D>().SlideNaDole = true;
+                koji = 3;
+            }
 
-			}
-			else if(gameObject.name.Contains("2"))
-			{
-				GameObject.FindGameObjectWithTag("Monkey").GetComponent<MonkeyController2D>().Glide = true;
-				koji=2;
-			}
-			else if(gameObject.name.Contains("3"))
-			{
-				GameObject.FindGameObjectWithTag("Monkey").GetComponent<MonkeyController2D>().SlideNaDole = true;
-				koji=3;
-			}
-			Time.timeScale = 0;
-			collider2D.enabled = false;
-			transform.position = Camera.main.transform.position + Vector3.forward*10;
-			transform.GetChild(0).gameObject.SetActive(true);
-			//StartCoroutine(TutorialPlay(transform.GetChild(0).GetChild(0),"TutorialUlaz_A",koji));
-			transform.GetChild(0).GetChild(0).GetComponent<Animator>().Play("OpenPopup");
-		}
-	}
+            Time.timeScale = 0;
+            GetComponent<Collider2D>().enabled = false;
+            transform.position = Camera.main.transform.position + Vector3.forward * 10;
+            transform.GetChild(0).gameObject.SetActive(true);
+            //StartCoroutine(TutorialPlay(transform.GetChild(0).GetChild(0),"TutorialUlaz_A",koji));
+            transform.GetChild(0).GetChild(0).GetComponent<Animator>().Play("OpenPopup");
+        }
+    }
 
 //	IEnumerator TutorialPlay(Transform obj, string ime, int next)
 //	{
-//		StartCoroutine( obj.animation.Play(ime, false, what => {helpBool=true;}) );
+//		StartCoroutine( obj.GetComponent<Animation>().Play(ime, false, what => {helpBool=true;}) );
 //		//animation.Play(
 //		while(!helpBool)
 //		{

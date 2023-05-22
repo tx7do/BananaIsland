@@ -630,7 +630,7 @@ public class StagesParser : MonoBehaviour {
 		LanguageManager.chosenLanguage = "_en";
 		Camera.main.SendMessage("PromeniZastavuNaOsnovuImena",SendMessageOptions.DontRequireReceiver);
 		Texture Zastava = Resources.Load("Zastave/0") as Texture;
-		GameObject.FindGameObjectWithTag("Zastava").renderer.material.SetTexture("_MainTex", Zastava);
+		GameObject.FindGameObjectWithTag("Zastava").GetComponent<Renderer>().material.SetTexture("_MainTex", Zastava);
 		ShopManagerFull.ShopObject.SviItemiInvetory();
 		ShopManagerFull.ShopObject.PobrisiSveOtkljucanoIzShopa();
 		ShopManagerFull.ShopObject.RefresujImenaItema();

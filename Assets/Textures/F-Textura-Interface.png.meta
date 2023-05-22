@@ -1,110 +1,273 @@
 fileFormatVersion: 2
 guid: 7910215994f56b54baa1dd09dc510de6
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Pts
-    21300002: Pts Senka
-    21300004: Coin Senka
-    21300006: Coin
-    21300008: Banana
-    21300010: Banana Senka
-    21300012: Distance
-    21300014: Distance Senka
-    21300016: Babun
-    21300018: Babun Senka
-    21300020: Babun Leteci
-    21300022: Babun Leteci Senka
-    21300024: Gorila
-    21300026: Gorila Senka
-    21300028: Gorila Leteca
-    21300030: Gorila Leteca Senka
-    21300032: Gorila Sa Kopljem
-    21300034: Gorila Sa Kopljem Senka
-    21300036: Crveni Dijamant
-    21300038: Crveni Dijamant Senka
-    21300040: Zeleni Dijamant
-    21300042: Zeleni Dijamant Senka
-    21300044: Plavi Dijamant
-    21300046: Plavi Dijamant Senka
-    21300048: 3 Dijamanta
-    21300050: 3 Dijamanta Senka
-    21300052: Bure
-    21300054: Bure Senka
-    21300056: Interface Coins/Pts
-    21300058: Interface Coins/Pts Polje za Unos
-    21300060: Interface Missions
-    21300062: Interface Missions Polje za Unos
-    21300064: Interface Missions Polje za Unos 2
-    21300066: Back Button
-    21300068: Circle Button
-    21300070: Mission Polje za unos poena
-    21300072: Polje za unos poena Na Level WIN
-    21300074: Polje za unos Keep Playing
-    21300076: Popup za win/lose....
-    21300078: Friends FB level WIN
-    21300080: Header za win popup
-    21300082: Friends Level Win
-    21300084: Friends Level Win YOU
-    21300086: Stars Polja 1
-    21300088: Star
-    21300090: Stars Polja 2
-    21300092: Stars Polja 3
-    21300094: FB
-    21300096: FB Drzac Sipke
-    21300098: FB Sipka
-    21300100: Level Faild Header
-    21300102: Level Faild Bobo
-    21300104: Polje za unos COINA U shopu
-    21300106: Buy Button
-    21300108: Button orange Circle
-    21300110: Circle Button BG
-    21300112: Mission Unos
-    21300114: Meni/MAPA
-    21300116: Home
-    21300118: Play
-    21300120: Settings
-    21300122: Leaderboard
-    21300124: Restart
-    21300126: Pause
-    21300128: Back
-    21300130: Next
-    21300132: Cancel
-    21300134: Exit
-    21300136: Polje a Keep Playing na pola
-    21300138: Babun Bumerang
-    21300140: Znak Uzvika telo
-    21300142: Znak Uzvika Tacka
-    21300144: Customization
-    21300146: Babun Bumerang Senka
-    21300148: BeliKrugBlur
-    21300150: ProgressBar
-    21300152: Shop
-  serializedVersion: 2
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Pts
+  - first:
+      213: 21300002
+    second: Pts Senka
+  - first:
+      213: 21300004
+    second: Coin Senka
+  - first:
+      213: 21300006
+    second: Coin
+  - first:
+      213: 21300008
+    second: Banana
+  - first:
+      213: 21300010
+    second: Banana Senka
+  - first:
+      213: 21300012
+    second: Distance
+  - first:
+      213: 21300014
+    second: Distance Senka
+  - first:
+      213: 21300016
+    second: Babun
+  - first:
+      213: 21300018
+    second: Babun Senka
+  - first:
+      213: 21300020
+    second: Babun Leteci
+  - first:
+      213: 21300022
+    second: Babun Leteci Senka
+  - first:
+      213: 21300024
+    second: Gorila
+  - first:
+      213: 21300026
+    second: Gorila Senka
+  - first:
+      213: 21300028
+    second: Gorila Leteca
+  - first:
+      213: 21300030
+    second: Gorila Leteca Senka
+  - first:
+      213: 21300032
+    second: Gorila Sa Kopljem
+  - first:
+      213: 21300034
+    second: Gorila Sa Kopljem Senka
+  - first:
+      213: 21300036
+    second: Crveni Dijamant
+  - first:
+      213: 21300038
+    second: Crveni Dijamant Senka
+  - first:
+      213: 21300040
+    second: Zeleni Dijamant
+  - first:
+      213: 21300042
+    second: Zeleni Dijamant Senka
+  - first:
+      213: 21300044
+    second: Plavi Dijamant
+  - first:
+      213: 21300046
+    second: Plavi Dijamant Senka
+  - first:
+      213: 21300048
+    second: 3 Dijamanta
+  - first:
+      213: 21300050
+    second: 3 Dijamanta Senka
+  - first:
+      213: 21300052
+    second: Bure
+  - first:
+      213: 21300054
+    second: Bure Senka
+  - first:
+      213: 21300056
+    second: Interface Coins/Pts
+  - first:
+      213: 21300058
+    second: Interface Coins/Pts Polje za Unos
+  - first:
+      213: 21300060
+    second: Interface Missions
+  - first:
+      213: 21300062
+    second: Interface Missions Polje za Unos
+  - first:
+      213: 21300064
+    second: Interface Missions Polje za Unos 2
+  - first:
+      213: 21300066
+    second: Back Button
+  - first:
+      213: 21300068
+    second: Circle Button
+  - first:
+      213: 21300070
+    second: Mission Polje za unos poena
+  - first:
+      213: 21300072
+    second: Polje za unos poena Na Level WIN
+  - first:
+      213: 21300074
+    second: Polje za unos Keep Playing
+  - first:
+      213: 21300076
+    second: Popup za win/lose....
+  - first:
+      213: 21300078
+    second: Friends FB level WIN
+  - first:
+      213: 21300080
+    second: Header za win popup
+  - first:
+      213: 21300082
+    second: Friends Level Win
+  - first:
+      213: 21300084
+    second: Friends Level Win YOU
+  - first:
+      213: 21300086
+    second: Stars Polja 1
+  - first:
+      213: 21300088
+    second: Star
+  - first:
+      213: 21300090
+    second: Stars Polja 2
+  - first:
+      213: 21300092
+    second: Stars Polja 3
+  - first:
+      213: 21300094
+    second: FB
+  - first:
+      213: 21300096
+    second: FB Drzac Sipke
+  - first:
+      213: 21300098
+    second: FB Sipka
+  - first:
+      213: 21300100
+    second: Level Faild Header
+  - first:
+      213: 21300102
+    second: Level Faild Bobo
+  - first:
+      213: 21300104
+    second: Polje za unos COINA U shopu
+  - first:
+      213: 21300106
+    second: Buy Button
+  - first:
+      213: 21300108
+    second: Button orange Circle
+  - first:
+      213: 21300110
+    second: Circle Button BG
+  - first:
+      213: 21300112
+    second: Mission Unos
+  - first:
+      213: 21300114
+    second: Meni/MAPA
+  - first:
+      213: 21300116
+    second: Home
+  - first:
+      213: 21300118
+    second: Play
+  - first:
+      213: 21300120
+    second: Settings
+  - first:
+      213: 21300122
+    second: Leaderboard
+  - first:
+      213: 21300124
+    second: Restart
+  - first:
+      213: 21300126
+    second: Pause
+  - first:
+      213: 21300128
+    second: Back
+  - first:
+      213: 21300130
+    second: Next
+  - first:
+      213: 21300132
+    second: Cancel
+  - first:
+      213: 21300134
+    second: Exit
+  - first:
+      213: 21300136
+    second: Polje a Keep Playing na pola
+  - first:
+      213: 21300138
+    second: Babun Bumerang
+  - first:
+      213: 21300140
+    second: Znak Uzvika telo
+  - first:
+      213: 21300142
+    second: Znak Uzvika Tacka
+  - first:
+      213: 21300144
+    second: Customization
+  - first:
+      213: 21300146
+    second: Babun Bumerang Senka
+  - first:
+      213: 21300148
+    second: BeliKrugBlur
+  - first:
+      213: 21300150
+    second: ProgressBar
+  - first:
+      213: 21300152
+    second: Shop
+  externalObjects: {}
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
   seamlessCubemap: 0
   textureFormat: -3
   maxTextureSize: 1024
   textureSettings:
-    filterMode: -1
+    serializedVersion: 2
+    filterMode: 1
     aniso: 1
-    mipBias: -1
-    wrapMode: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -112,15 +275,38 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: Pts
+    - serializedVersion: 2
+      name: Pts
       rect:
         serializedVersion: 2
         x: 0
@@ -128,9 +314,20 @@ TextureImporter:
         width: 81
         height: 53
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Pts Senka
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pts Senka
       rect:
         serializedVersion: 2
         x: 82
@@ -138,9 +335,20 @@ TextureImporter:
         width: 117
         height: 63
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Coin Senka
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin Senka
       rect:
         serializedVersion: 2
         x: 200
@@ -148,9 +356,20 @@ TextureImporter:
         width: 93
         height: 68
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Coin
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin
       rect:
         serializedVersion: 2
         x: 1
@@ -158,9 +377,20 @@ TextureImporter:
         width: 56
         height: 57
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Banana
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banana
       rect:
         serializedVersion: 2
         x: 0
@@ -168,9 +398,20 @@ TextureImporter:
         width: 75
         height: 65
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Banana Senka
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banana Senka
       rect:
         serializedVersion: 2
         x: 294
@@ -178,9 +419,20 @@ TextureImporter:
         width: 93
         height: 71
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Distance
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Distance
       rect:
         serializedVersion: 2
         x: 387
@@ -188,9 +440,20 @@ TextureImporter:
         width: 75
         height: 66
       alignment: 9
-      pivot: {x: .533227146, y: .219509244}
+      pivot: {x: 0.53322715, y: 0.21950924}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Distance Senka
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Distance Senka
       rect:
         serializedVersion: 2
         x: 463
@@ -198,9 +461,20 @@ TextureImporter:
         width: 91
         height: 70
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Babun
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Babun
       rect:
         serializedVersion: 2
         x: 555
@@ -208,9 +482,20 @@ TextureImporter:
         width: 53
         height: 69
       alignment: 9
-      pivot: {x: .560715258, y: .233175531}
+      pivot: {x: 0.56071526, y: 0.23317553}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Babun Senka
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Babun Senka
       rect:
         serializedVersion: 2
         x: 608
@@ -218,9 +503,20 @@ TextureImporter:
         width: 85
         height: 73
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Babun Leteci
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Babun Leteci
       rect:
         serializedVersion: 2
         x: 694
@@ -228,9 +524,20 @@ TextureImporter:
         width: 72
         height: 77
       alignment: 9
-      pivot: {x: .47547996, y: .319853544}
+      pivot: {x: 0.47547996, y: 0.31985354}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Babun Leteci Senka
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Babun Leteci Senka
       rect:
         serializedVersion: 2
         x: 767
@@ -238,9 +545,20 @@ TextureImporter:
         width: 95
         height: 74
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Gorila
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gorila
       rect:
         serializedVersion: 2
         x: 864
@@ -248,9 +566,20 @@ TextureImporter:
         width: 58
         height: 73
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Gorila Senka
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gorila Senka
       rect:
         serializedVersion: 2
         x: 923
@@ -258,9 +587,20 @@ TextureImporter:
         width: 97
         height: 75
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Gorila Leteca
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gorila Leteca
       rect:
         serializedVersion: 2
         x: 305
@@ -268,9 +608,20 @@ TextureImporter:
         width: 75
         height: 77
       alignment: 9
-      pivot: {x: .423573822, y: .33419919}
+      pivot: {x: 0.42357382, y: 0.3341992}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Gorila Leteca Senka
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gorila Leteca Senka
       rect:
         serializedVersion: 2
         x: 381
@@ -278,9 +629,20 @@ TextureImporter:
         width: 105
         height: 78
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Gorila Sa Kopljem
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gorila Sa Kopljem
       rect:
         serializedVersion: 2
         x: 486
@@ -288,9 +650,20 @@ TextureImporter:
         width: 57
         height: 76
       alignment: 9
-      pivot: {x: .628063142, y: .242672771}
+      pivot: {x: 0.62806314, y: 0.24267277}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Gorila Sa Kopljem Senka
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gorila Sa Kopljem Senka
       rect:
         serializedVersion: 2
         x: 544
@@ -298,9 +671,20 @@ TextureImporter:
         width: 96
         height: 77
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crveni Dijamant
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crveni Dijamant
       rect:
         serializedVersion: 2
         x: 643
@@ -308,9 +692,20 @@ TextureImporter:
         width: 63
         height: 62
       alignment: 9
-      pivot: {x: .578575492, y: .420155197}
+      pivot: {x: 0.5785755, y: 0.4201552}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crveni Dijamant Senka
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crveni Dijamant Senka
       rect:
         serializedVersion: 2
         x: 641
@@ -318,9 +713,20 @@ TextureImporter:
         width: 84
         height: 62
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Zeleni Dijamant
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeleni Dijamant
       rect:
         serializedVersion: 2
         x: 706
@@ -328,9 +734,20 @@ TextureImporter:
         width: 61
         height: 66
       alignment: 9
-      pivot: {x: .586847186, y: .421046406}
+      pivot: {x: 0.5868472, y: 0.4210464}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Zeleni Dijamant Senka
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zeleni Dijamant Senka
       rect:
         serializedVersion: 2
         x: 726
@@ -338,9 +755,20 @@ TextureImporter:
         width: 90
         height: 63
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Plavi Dijamant
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plavi Dijamant
       rect:
         serializedVersion: 2
         x: 769
@@ -348,9 +776,20 @@ TextureImporter:
         width: 59
         height: 55
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Plavi Dijamant Senka
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plavi Dijamant Senka
       rect:
         serializedVersion: 2
         x: 816
@@ -358,9 +797,20 @@ TextureImporter:
         width: 99
         height: 63
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: 3 Dijamanta
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4305410000000000800000000000000
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3 Dijamanta
       rect:
         serializedVersion: 2
         x: 832
@@ -368,9 +818,20 @@ TextureImporter:
         width: 72
         height: 65
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: 3 Dijamanta Senka
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05305410000000000800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3 Dijamanta Senka
       rect:
         serializedVersion: 2
         x: 915
@@ -378,9 +839,20 @@ TextureImporter:
         width: 96
         height: 63
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Bure
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25305410000000000800000000000000
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bure
       rect:
         serializedVersion: 2
         x: 262
@@ -388,9 +860,20 @@ TextureImporter:
         width: 54
         height: 56
       alignment: 9
-      pivot: {x: .529408753, y: .411212474}
+      pivot: {x: 0.52940875, y: 0.41121247}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Bure Senka
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45305410000000000800000000000000
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bure Senka
       rect:
         serializedVersion: 2
         x: 922
@@ -398,9 +881,20 @@ TextureImporter:
         width: 98
         height: 66
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Interface Coins/Pts
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65305410000000000800000000000000
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interface Coins/Pts
       rect:
         serializedVersion: 2
         x: 81
@@ -408,9 +902,20 @@ TextureImporter:
         width: 221
         height: 73
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Interface Coins/Pts Polje za Unos
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85305410000000000800000000000000
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interface Coins/Pts Polje za Unos
       rect:
         serializedVersion: 2
         x: 77
@@ -418,9 +923,20 @@ TextureImporter:
         width: 152
         height: 45
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Interface Missions
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5305410000000000800000000000000
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interface Missions
       rect:
         serializedVersion: 2
         x: 2
@@ -428,9 +944,20 @@ TextureImporter:
         width: 134
         height: 74
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Interface Missions Polje za Unos
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5305410000000000800000000000000
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interface Missions Polje za Unos
       rect:
         serializedVersion: 2
         x: 323
@@ -438,9 +965,20 @@ TextureImporter:
         width: 103
         height: 45
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Interface Missions Polje za Unos 2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5305410000000000800000000000000
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interface Missions Polje za Unos 2
       rect:
         serializedVersion: 2
         x: 2
@@ -448,9 +986,20 @@ TextureImporter:
         width: 110
         height: 51
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Back Button
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06305410000000000800000000000000
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back Button
       rect:
         serializedVersion: 2
         x: 137
@@ -458,9 +1007,20 @@ TextureImporter:
         width: 122
         height: 92
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Circle Button
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26305410000000000800000000000000
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle Button
       rect:
         serializedVersion: 2
         x: 455
@@ -468,9 +1028,20 @@ TextureImporter:
         width: 153
         height: 155
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mission Polje za unos poena
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46305410000000000800000000000000
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mission Polje za unos poena
       rect:
         serializedVersion: 2
         x: 260
@@ -478,9 +1049,20 @@ TextureImporter:
         width: 350
         height: 68
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Polje za unos poena Na Level WIN
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66305410000000000800000000000000
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polje za unos poena Na Level WIN
       rect:
         serializedVersion: 2
         x: 657
@@ -488,9 +1070,20 @@ TextureImporter:
         width: 363
         height: 90
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Polje za unos Keep Playing
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86305410000000000800000000000000
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polje za unos Keep Playing
       rect:
         serializedVersion: 2
         x: 669
@@ -498,9 +1091,20 @@ TextureImporter:
         width: 348
         height: 167
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Popup za win/lose....
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6305410000000000800000000000000
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popup za win/lose....
       rect:
         serializedVersion: 2
         x: 469
@@ -508,9 +1112,20 @@ TextureImporter:
         width: 545
         height: 469
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Friends FB level WIN
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6305410000000000800000000000000
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Friends FB level WIN
       rect:
         serializedVersion: 2
         x: 3
@@ -518,9 +1133,20 @@ TextureImporter:
         width: 465
         height: 98
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Header za win popup
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6305410000000000800000000000000
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Header za win popup
       rect:
         serializedVersion: 2
         x: 7
@@ -528,9 +1154,20 @@ TextureImporter:
         width: 453
         height: 92
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Friends Level Win
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07305410000000000800000000000000
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Friends Level Win
       rect:
         serializedVersion: 2
         x: 1
@@ -538,9 +1175,20 @@ TextureImporter:
         width: 108
         height: 89
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Friends Level Win YOU
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27305410000000000800000000000000
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Friends Level Win YOU
       rect:
         serializedVersion: 2
         x: 305
@@ -548,9 +1196,20 @@ TextureImporter:
         width: 108
         height: 89
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Stars Polja 1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47305410000000000800000000000000
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars Polja 1
       rect:
         serializedVersion: 2
         x: 3
@@ -558,9 +1217,20 @@ TextureImporter:
         width: 97
         height: 97
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Star
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67305410000000000800000000000000
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star
       rect:
         serializedVersion: 2
         x: 113
@@ -568,9 +1238,20 @@ TextureImporter:
         width: 92
         height: 87
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Stars Polja 2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87305410000000000800000000000000
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars Polja 2
       rect:
         serializedVersion: 2
         x: 104
@@ -578,9 +1259,20 @@ TextureImporter:
         width: 97
         height: 94
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Stars Polja 3
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7305410000000000800000000000000
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars Polja 3
       rect:
         serializedVersion: 2
         x: 205
@@ -588,9 +1280,20 @@ TextureImporter:
         width: 97
         height: 97
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: FB
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7305410000000000800000000000000
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FB
       rect:
         serializedVersion: 2
         x: 344
@@ -598,9 +1301,20 @@ TextureImporter:
         width: 120
         height: 120
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: FB Drzac Sipke
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7305410000000000800000000000000
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FB Drzac Sipke
       rect:
         serializedVersion: 2
         x: 443
@@ -608,9 +1322,20 @@ TextureImporter:
         width: 19
         height: 20
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: FB Sipka
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08305410000000000800000000000000
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FB Sipka
       rect:
         serializedVersion: 2
         x: 477
@@ -618,9 +1343,20 @@ TextureImporter:
         width: 187
         height: 6
       alignment: 9
-      pivot: {x: .0161295999, y: .562835693}
+      pivot: {x: 0.0161296, y: 0.5628357}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Level Faild Header
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28305410000000000800000000000000
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Faild Header
       rect:
         serializedVersion: 2
         x: 95
@@ -628,9 +1364,20 @@ TextureImporter:
         width: 353
         height: 76
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Level Faild Bobo
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48305410000000000800000000000000
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Faild Bobo
       rect:
         serializedVersion: 2
         x: 91
@@ -638,9 +1385,20 @@ TextureImporter:
         width: 354
         height: 169
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Polje za unos COINA U shopu
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68305410000000000800000000000000
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polje za unos COINA U shopu
       rect:
         serializedVersion: 2
         x: 116
@@ -648,9 +1406,20 @@ TextureImporter:
         width: 172
         height: 46
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Buy Button
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88305410000000000800000000000000
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buy Button
       rect:
         serializedVersion: 2
         x: 855
@@ -658,9 +1427,20 @@ TextureImporter:
         width: 163
         height: 68
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Button orange Circle
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8305410000000000800000000000000
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button orange Circle
       rect:
         serializedVersion: 2
         x: 785
@@ -668,9 +1448,20 @@ TextureImporter:
         width: 66
         height: 66
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Circle Button BG
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8305410000000000800000000000000
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle Button BG
       rect:
         serializedVersion: 2
         x: 715
@@ -678,9 +1469,20 @@ TextureImporter:
         width: 68
         height: 68
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mission Unos
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8305410000000000800000000000000
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mission Unos
       rect:
         serializedVersion: 2
         x: 0
@@ -688,9 +1490,20 @@ TextureImporter:
         width: 81
         height: 253
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Meni/MAPA
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09305410000000000800000000000000
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meni/MAPA
       rect:
         serializedVersion: 2
         x: 15
@@ -698,9 +1511,20 @@ TextureImporter:
         width: 59
         height: 39
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Home
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29305410000000000800000000000000
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Home
       rect:
         serializedVersion: 2
         x: 316
@@ -708,9 +1532,20 @@ TextureImporter:
         width: 64
         height: 58
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Play
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49305410000000000800000000000000
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Play
       rect:
         serializedVersion: 2
         x: 383
@@ -718,9 +1553,20 @@ TextureImporter:
         width: 37
         height: 54
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Settings
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69305410000000000800000000000000
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Settings
       rect:
         serializedVersion: 2
         x: 423
@@ -728,9 +1574,20 @@ TextureImporter:
         width: 62
         height: 62
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Leaderboard
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89305410000000000800000000000000
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaderboard
       rect:
         serializedVersion: 2
         x: 488
@@ -738,9 +1595,20 @@ TextureImporter:
         width: 65
         height: 62
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Restart
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9305410000000000800000000000000
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Restart
       rect:
         serializedVersion: 2
         x: 554
@@ -748,9 +1616,20 @@ TextureImporter:
         width: 60
         height: 59
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Pause
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9305410000000000800000000000000
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pause
       rect:
         serializedVersion: 2
         x: 613
@@ -758,9 +1637,20 @@ TextureImporter:
         width: 42
         height: 40
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Back
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9305410000000000800000000000000
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back
       rect:
         serializedVersion: 2
         x: 617
@@ -768,9 +1658,20 @@ TextureImporter:
         width: 34
         height: 48
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Next
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a305410000000000800000000000000
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Next
       rect:
         serializedVersion: 2
         x: 616
@@ -778,9 +1679,20 @@ TextureImporter:
         width: 51
         height: 46
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Cancel
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a305410000000000800000000000000
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cancel
       rect:
         serializedVersion: 2
         x: 635
@@ -788,9 +1700,20 @@ TextureImporter:
         width: 31
         height: 32
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Exit
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a305410000000000800000000000000
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exit
       rect:
         serializedVersion: 2
         x: 610
@@ -798,9 +1721,20 @@ TextureImporter:
         width: 55
         height: 63
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Polje a Keep Playing na pola
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a305410000000000800000000000000
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Polje a Keep Playing na pola
       rect:
         serializedVersion: 2
         x: 669
@@ -808,9 +1742,20 @@ TextureImporter:
         width: 347
         height: 127
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Babun Bumerang
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a305410000000000800000000000000
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Babun Bumerang
       rect:
         serializedVersion: 2
         x: 208
@@ -818,9 +1763,20 @@ TextureImporter:
         width: 59
         height: 66
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Znak Uzvika telo
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa305410000000000800000000000000
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Znak Uzvika telo
       rect:
         serializedVersion: 2
         x: 672
@@ -828,9 +1784,20 @@ TextureImporter:
         width: 33
         height: 61
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Znak Uzvika Tacka
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca305410000000000800000000000000
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Znak Uzvika Tacka
       rect:
         serializedVersion: 2
         x: 631
@@ -838,9 +1805,20 @@ TextureImporter:
         width: 34
         height: 34
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Customization
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea305410000000000800000000000000
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Customization
       rect:
         serializedVersion: 2
         x: 433
@@ -848,9 +1826,20 @@ TextureImporter:
         width: 61
         height: 51
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Babun Bumerang Senka
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b305410000000000800000000000000
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Babun Bumerang Senka
       rect:
         serializedVersion: 2
         x: 498
@@ -858,9 +1847,20 @@ TextureImporter:
         width: 72
         height: 53
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BeliKrugBlur
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b305410000000000800000000000000
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeliKrugBlur
       rect:
         serializedVersion: 2
         x: 273
@@ -868,9 +1868,20 @@ TextureImporter:
         width: 69
         height: 69
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ProgressBar
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b305410000000000800000000000000
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProgressBar
       rect:
         serializedVersion: 2
         x: 93
@@ -878,9 +1889,20 @@ TextureImporter:
         width: 147
         height: 25
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Shop
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b305410000000000800000000000000
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shop
       rect:
         serializedVersion: 2
         x: 573
@@ -888,7 +1910,31 @@ TextureImporter:
         width: 68
         height: 51
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b305410000000000800000000000000
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

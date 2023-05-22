@@ -42,7 +42,7 @@ public class RunWithSpeed : MonoBehaviour {
 				transform.position = new Vector3(desnaGranica.position.x + desnaGranica.localPosition.x,transform.position.y, transform.position.z);
 			}
 		}
-		if(((playerController.state == MonkeyController2D.State.running || playerController.state == MonkeyController2D.State.jumped) && playerController.rigidbody2D.velocity.x > 0.05f && !playerController.wallHitGlide)  || continueMoving)
+		if(((playerController.state == MonkeyController2D.State.running || playerController.state == MonkeyController2D.State.jumped) && playerController.GetComponent<Rigidbody2D>().velocity.x > 0.05f && !playerController.wallHitGlide)  || continueMoving)
 		{
 			if(smooth)
 				smoothMove = true;

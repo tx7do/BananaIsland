@@ -10,7 +10,7 @@ public class UbrzanjeTest : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		rigidbody2D.AddForce(new Vector2(0,force));
+		GetComponent<Rigidbody2D>().AddForce(new Vector2(0,force));
 		force += 5f;
 	
 	}

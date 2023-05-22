@@ -46,7 +46,7 @@ public class RunWithSpeed_jednakamera : MonoBehaviour {
 			}
 		}
 
-		if(((playerController.state == MonkeyController2D.State.running || playerController.state == MonkeyController2D.State.jumped) && playerController.rigidbody2D.velocity.x > 0.05f)  || continueMoving)
+		if(((playerController.state == MonkeyController2D.State.running || playerController.state == MonkeyController2D.State.jumped) && playerController.GetComponent<Rigidbody2D>().velocity.x > 0.05f)  || continueMoving)
 		{
 			if(smooth)
 			smoothMove = true;

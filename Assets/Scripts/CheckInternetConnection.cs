@@ -139,7 +139,7 @@ public class CheckInternetConnection : MonoBehaviour {
 //		{
 //			Font ArialFont = (Font)Resources.GetBuiltinResource (typeof(Font), "Arial.ttf");
 //			noInternet.font = ArialFont;
-//			noInternet.renderer.material = ArialFont.material;
+//			noInternet.GetComponent<Renderer>().material = ArialFont.material;
 //
 //		}
 		noInternet.text = LanguageManager.NoInternet;

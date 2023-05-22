@@ -1,77 +1,174 @@
 fileFormatVersion: 2
 guid: 9727871860174f84e81406a200686782
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Palma List 5
-    21300002: Palma List 6
-    21300004: Novcici 5
-    21300006: Postolje za Zastavu 1
-    21300008: Oblak HS 1 Blur
-    21300010: Oblak HS 1
-    21300012: Palma List 4
-    21300014: Palma Kokos 2
-    21300016: Oblak HS 2 Blur
-    21300018: Oblak HS 2
-    21300020: Palma List 3
-    21300022: Palma List 2
-    21300024: Novcic 1
-    21300026: Oblak HS 3 Blur
-    21300028: Palma List 1
-    21300030: Oblak HS 3
-    21300032: Zbunce HS
-    21300034: 'Kovceg '
-    21300036: Savana Island HS
-    21300038: Vulcano Island HS
-    21300040: Island HS
-    21300042: Kamenje HS
-    21300044: 'Banana Island HS '
-    21300046: Pesak HS
-    21300048: Palma Deblo
-    21300050: Palma Kokos 1
-    21300052: Nebo
-    21300054: Voda
-    21300056: Plavi Krug
-    21300058: Plavo zeleni Krug
-    21300060: Svetlo Plavi Krug
-    21300062: Novcici 2
-    21300064: Novcic 3
-    21300066: Postolje za Zastavu 2
-    21300068: Postolje za Zastavu 3
-    21300070: Postolje za Zastavu 4
-    21300072: Postolje za Zastavu 5
-    21300074: Kovceg Poklopac
-    21300076: Kokos
-    21300078: Beli Krug
-    21300080: Beli Krug Blur
-    21300082: Kamenje HS 2
-    21300084: Kamenje HS 3
-    21300086: Bela senka
-  serializedVersion: 2
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Palma List 5
+  - first:
+      213: 21300002
+    second: Palma List 6
+  - first:
+      213: 21300004
+    second: Novcici 5
+  - first:
+      213: 21300006
+    second: Postolje za Zastavu 1
+  - first:
+      213: 21300008
+    second: Oblak HS 1 Blur
+  - first:
+      213: 21300010
+    second: Oblak HS 1
+  - first:
+      213: 21300012
+    second: Palma List 4
+  - first:
+      213: 21300014
+    second: Palma Kokos 2
+  - first:
+      213: 21300016
+    second: Oblak HS 2 Blur
+  - first:
+      213: 21300018
+    second: Oblak HS 2
+  - first:
+      213: 21300020
+    second: Palma List 3
+  - first:
+      213: 21300022
+    second: Palma List 2
+  - first:
+      213: 21300024
+    second: Novcic 1
+  - first:
+      213: 21300026
+    second: Oblak HS 3 Blur
+  - first:
+      213: 21300028
+    second: Palma List 1
+  - first:
+      213: 21300030
+    second: Oblak HS 3
+  - first:
+      213: 21300032
+    second: Zbunce HS
+  - first:
+      213: 21300034
+    second: 'Kovceg '
+  - first:
+      213: 21300036
+    second: Savana Island HS
+  - first:
+      213: 21300038
+    second: Vulcano Island HS
+  - first:
+      213: 21300040
+    second: Island HS
+  - first:
+      213: 21300042
+    second: Kamenje HS
+  - first:
+      213: 21300044
+    second: 'Banana Island HS '
+  - first:
+      213: 21300046
+    second: Pesak HS
+  - first:
+      213: 21300048
+    second: Palma Deblo
+  - first:
+      213: 21300050
+    second: Palma Kokos 1
+  - first:
+      213: 21300052
+    second: Nebo
+  - first:
+      213: 21300054
+    second: Voda
+  - first:
+      213: 21300056
+    second: Plavi Krug
+  - first:
+      213: 21300058
+    second: Plavo zeleni Krug
+  - first:
+      213: 21300060
+    second: Svetlo Plavi Krug
+  - first:
+      213: 21300062
+    second: Novcici 2
+  - first:
+      213: 21300064
+    second: Novcic 3
+  - first:
+      213: 21300066
+    second: Postolje za Zastavu 2
+  - first:
+      213: 21300068
+    second: Postolje za Zastavu 3
+  - first:
+      213: 21300070
+    second: Postolje za Zastavu 4
+  - first:
+      213: 21300072
+    second: Postolje za Zastavu 5
+  - first:
+      213: 21300074
+    second: Kovceg Poklopac
+  - first:
+      213: 21300076
+    second: Kokos
+  - first:
+      213: 21300078
+    second: Beli Krug
+  - first:
+      213: 21300080
+    second: Beli Krug Blur
+  - first:
+      213: 21300082
+    second: Kamenje HS 2
+  - first:
+      213: 21300084
+    second: Kamenje HS 3
+  - first:
+      213: 21300086
+    second: Bela senka
+  externalObjects: {}
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
   seamlessCubemap: 0
   textureFormat: 56
   maxTextureSize: 1024
   textureSettings:
-    filterMode: -1
+    serializedVersion: 2
+    filterMode: 1
     aniso: 1
-    mipBias: -1
-    wrapMode: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -79,19 +176,50 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 0
   alphaIsTransparency: 1
-  textureType: 5
-  buildTargetSettings:
-  - buildTarget: iPhone
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
     textureFormat: 33
+    textureCompression: 0
     compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: Palma List 5
+    - serializedVersion: 2
+      name: Palma List 5
       rect:
         serializedVersion: 2
         x: 90
@@ -99,9 +227,20 @@ TextureImporter:
         width: 118
         height: 49
       alignment: 9
-      pivot: {x: .868593514, y: .175944433}
+      pivot: {x: 0.8685935, y: 0.17594443}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Palma List 6
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Palma List 6
       rect:
         serializedVersion: 2
         x: 225
@@ -109,9 +248,20 @@ TextureImporter:
         width: 46
         height: 87
       alignment: 9
-      pivot: {x: .332612067, y: .817138672}
+      pivot: {x: 0.33261207, y: 0.8171387}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Novcici 5
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Novcici 5
       rect:
         serializedVersion: 2
         x: 302
@@ -119,9 +269,20 @@ TextureImporter:
         width: 55
         height: 165
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Postolje za Zastavu 1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postolje za Zastavu 1
       rect:
         serializedVersion: 2
         x: 361
@@ -129,9 +290,20 @@ TextureImporter:
         width: 121
         height: 44
       alignment: 9
-      pivot: {x: .468330443, y: .56051296}
+      pivot: {x: 0.46833044, y: 0.56051296}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Oblak HS 1 Blur
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oblak HS 1 Blur
       rect:
         serializedVersion: 2
         x: 490
@@ -139,9 +311,20 @@ TextureImporter:
         width: 215
         height: 72
       alignment: 9
-      pivot: {x: .508425713, y: .210663691}
+      pivot: {x: 0.5084257, y: 0.21066369}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Oblak HS 1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oblak HS 1
       rect:
         serializedVersion: 2
         x: 707
@@ -149,9 +332,20 @@ TextureImporter:
         width: 312
         height: 100
       alignment: 9
-      pivot: {x: .508708835, y: .16487366}
+      pivot: {x: 0.50870883, y: 0.16487366}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Palma List 4
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Palma List 4
       rect:
         serializedVersion: 2
         x: 86
@@ -161,7 +355,18 @@ TextureImporter:
       alignment: 8
       pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Palma Kokos 2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Palma Kokos 2
       rect:
         serializedVersion: 2
         x: 224
@@ -169,9 +374,20 @@ TextureImporter:
         width: 39
         height: 36
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Oblak HS 2 Blur
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oblak HS 2 Blur
       rect:
         serializedVersion: 2
         x: 497
@@ -179,9 +395,20 @@ TextureImporter:
         width: 208
         height: 96
       alignment: 9
-      pivot: {x: .491291046, y: .18864949}
+      pivot: {x: 0.49129105, y: 0.18864949}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Oblak HS 2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oblak HS 2
       rect:
         serializedVersion: 2
         x: 713
@@ -189,9 +416,20 @@ TextureImporter:
         width: 303
         height: 135
       alignment: 9
-      pivot: {x: .5, y: .157829225}
+      pivot: {x: 0.5, y: 0.15782923}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Palma List 3
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Palma List 3
       rect:
         serializedVersion: 2
         x: 83
@@ -201,7 +439,18 @@ TextureImporter:
       alignment: 8
       pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Palma List 2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Palma List 2
       rect:
         serializedVersion: 2
         x: 86
@@ -209,9 +458,20 @@ TextureImporter:
         width: 135
         height: 75
       alignment: 4
-      pivot: {x: 0, y: .5}
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Novcic 1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Novcic 1
       rect:
         serializedVersion: 2
         x: 317
@@ -219,9 +479,20 @@ TextureImporter:
         width: 39
         height: 16
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Oblak HS 3 Blur
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oblak HS 3 Blur
       rect:
         serializedVersion: 2
         x: 489
@@ -229,9 +500,20 @@ TextureImporter:
         width: 217
         height: 82
       alignment: 9
-      pivot: {x: .495845139, y: .29013136}
+      pivot: {x: 0.49584514, y: 0.29013136}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Palma List 1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Palma List 1
       rect:
         serializedVersion: 2
         x: 86
@@ -239,9 +521,20 @@ TextureImporter:
         width: 136
         height: 71
       alignment: 9
-      pivot: {x: .0177484397, y: .334697872}
+      pivot: {x: 0.01774844, y: 0.33469787}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Oblak HS 3
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oblak HS 3
       rect:
         serializedVersion: 2
         x: 708
@@ -249,9 +542,20 @@ TextureImporter:
         width: 314
         height: 114
       alignment: 9
-      pivot: {x: .494230807, y: .174248949}
+      pivot: {x: 0.4942308, y: 0.17424895}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Zbunce HS
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zbunce HS
       rect:
         serializedVersion: 2
         x: 0
@@ -259,9 +563,20 @@ TextureImporter:
         width: 197
         height: 121
       alignment: 9
-      pivot: {x: .509195387, y: .163151771}
+      pivot: {x: 0.5091954, y: 0.16315177}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: 'Kovceg '
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 'Kovceg '
       rect:
         serializedVersion: 2
         x: 252
@@ -269,9 +584,20 @@ TextureImporter:
         width: 231
         height: 162
       alignment: 9
-      pivot: {x: .559232056, y: .346122384}
+      pivot: {x: 0.55923206, y: 0.34612238}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Savana Island HS
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Savana Island HS
       rect:
         serializedVersion: 2
         x: 487
@@ -279,9 +605,20 @@ TextureImporter:
         width: 208
         height: 164
       alignment: 9
-      pivot: {x: .5, y: .378497243}
+      pivot: {x: 0.5, y: 0.37849724}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Vulcano Island HS
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulcano Island HS
       rect:
         serializedVersion: 2
         x: 697
@@ -289,9 +626,20 @@ TextureImporter:
         width: 149
         height: 105
       alignment: 9
-      pivot: {x: .499999583, y: .370607227}
+      pivot: {x: 0.49999958, y: 0.37060723}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Island HS
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island HS
       rect:
         serializedVersion: 2
         x: 858
@@ -299,9 +647,20 @@ TextureImporter:
         width: 164
         height: 126
       alignment: 9
-      pivot: {x: .499999642, y: .384984106}
+      pivot: {x: 0.49999964, y: 0.3849841}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Kamenje HS
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kamenje HS
       rect:
         serializedVersion: 2
         x: 0
@@ -309,9 +668,20 @@ TextureImporter:
         width: 232
         height: 291
       alignment: 9
-      pivot: {x: .545540094, y: .29858923}
+      pivot: {x: 0.5455401, y: 0.29858923}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: 'Banana Island HS '
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 'Banana Island HS '
       rect:
         serializedVersion: 2
         x: 510
@@ -319,9 +689,20 @@ TextureImporter:
         width: 504
         height: 358
       alignment: 9
-      pivot: {x: .521565378, y: .472169757}
+      pivot: {x: 0.5215654, y: 0.47216976}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Pesak HS
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pesak HS
       rect:
         serializedVersion: 2
         x: 0
@@ -329,9 +710,20 @@ TextureImporter:
         width: 1024
         height: 150
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Palma Deblo
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4305410000000000800000000000000
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Palma Deblo
       rect:
         serializedVersion: 2
         x: 0
@@ -339,9 +731,20 @@ TextureImporter:
         width: 83
         height: 321
       alignment: 9
-      pivot: {x: .516244292, y: .0591023751}
+      pivot: {x: 0.5162443, y: 0.059102375}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Palma Kokos 1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05305410000000000800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Palma Kokos 1
       rect:
         serializedVersion: 2
         x: 224
@@ -349,9 +752,20 @@ TextureImporter:
         width: 39
         height: 37
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Nebo
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25305410000000000800000000000000
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nebo
       rect:
         serializedVersion: 2
         x: 0
@@ -359,9 +773,20 @@ TextureImporter:
         width: 99
         height: 118
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Voda
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45305410000000000800000000000000
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Voda
       rect:
         serializedVersion: 2
         x: 99
@@ -369,9 +794,20 @@ TextureImporter:
         width: 121
         height: 121
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Plavi Krug
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65305410000000000800000000000000
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plavi Krug
       rect:
         serializedVersion: 2
         x: 394
@@ -379,9 +815,20 @@ TextureImporter:
         width: 94
         height: 92
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Plavo zeleni Krug
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85305410000000000800000000000000
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plavo zeleni Krug
       rect:
         serializedVersion: 2
         x: 394
@@ -389,9 +836,20 @@ TextureImporter:
         width: 92
         height: 91
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Svetlo Plavi Krug
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5305410000000000800000000000000
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Svetlo Plavi Krug
       rect:
         serializedVersion: 2
         x: 394
@@ -399,9 +857,20 @@ TextureImporter:
         width: 92
         height: 93
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Novcici 2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5305410000000000800000000000000
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Novcici 2
       rect:
         serializedVersion: 2
         x: 317
@@ -409,9 +878,20 @@ TextureImporter:
         width: 39
         height: 17
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Novcic 3
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5305410000000000800000000000000
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Novcic 3
       rect:
         serializedVersion: 2
         x: 317
@@ -419,9 +899,20 @@ TextureImporter:
         width: 38
         height: 17
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Postolje za Zastavu 2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06305410000000000800000000000000
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postolje za Zastavu 2
       rect:
         serializedVersion: 2
         x: 361
@@ -429,9 +920,20 @@ TextureImporter:
         width: 61
         height: 10
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Postolje za Zastavu 3
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26305410000000000800000000000000
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postolje za Zastavu 3
       rect:
         serializedVersion: 2
         x: 361
@@ -439,9 +941,20 @@ TextureImporter:
         width: 85
         height: 24
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Postolje za Zastavu 4
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46305410000000000800000000000000
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postolje za Zastavu 4
       rect:
         serializedVersion: 2
         x: 362
@@ -449,9 +962,20 @@ TextureImporter:
         width: 21
         height: 59
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Postolje za Zastavu 5
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66305410000000000800000000000000
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Postolje za Zastavu 5
       rect:
         serializedVersion: 2
         x: 468
@@ -459,9 +983,20 @@ TextureImporter:
         width: 21
         height: 243
       alignment: 9
-      pivot: {x: .522035122, y: .0343841426}
+      pivot: {x: 0.5220351, y: 0.034384143}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Kovceg Poklopac
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86305410000000000800000000000000
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kovceg Poklopac
       rect:
         serializedVersion: 2
         x: 276
@@ -469,9 +1004,20 @@ TextureImporter:
         width: 210
         height: 104
       alignment: 9
-      pivot: {x: .581235051, y: .00307758036}
+      pivot: {x: 0.58123505, y: 0.0030775804}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Kokos
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6305410000000000800000000000000
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kokos
       rect:
         serializedVersion: 2
         x: 226
@@ -479,9 +1025,20 @@ TextureImporter:
         width: 37
         height: 40
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Beli Krug
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6305410000000000800000000000000
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beli Krug
       rect:
         serializedVersion: 2
         x: 416
@@ -489,9 +1046,20 @@ TextureImporter:
         width: 51
         height: 52
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Beli Krug Blur
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6305410000000000800000000000000
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beli Krug Blur
       rect:
         serializedVersion: 2
         x: 224
@@ -499,9 +1067,20 @@ TextureImporter:
         width: 78
         height: 78
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Kamenje HS 2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07305410000000000800000000000000
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kamenje HS 2
       rect:
         serializedVersion: 2
         x: 234
@@ -509,9 +1088,20 @@ TextureImporter:
         width: 99
         height: 112
       alignment: 9
-      pivot: {x: .473220676, y: .41005066}
+      pivot: {x: 0.47322068, y: 0.41005066}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Kamenje HS 3
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27305410000000000800000000000000
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kamenje HS 3
       rect:
         serializedVersion: 2
         x: 338
@@ -519,9 +1109,20 @@ TextureImporter:
         width: 49
         height: 45
       alignment: 9
-      pivot: {x: .617148876, y: .38217026}
+      pivot: {x: 0.6171489, y: 0.38217026}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Bela senka
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47305410000000000800000000000000
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bela senka
       rect:
         serializedVersion: 2
         x: 308
@@ -529,7 +1130,31 @@ TextureImporter:
         width: 76
         height: 198
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67305410000000000800000000000000
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

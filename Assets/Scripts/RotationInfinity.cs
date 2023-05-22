@@ -19,7 +19,7 @@ public class RotationInfinity : MonoBehaviour {
 	{
 		if(jump)
 		{
-			rigidbody2D.AddForce(new Vector2(0,15000));
+			GetComponent<Rigidbody2D>().AddForce(new Vector2(0,15000));
 			jump = false;
 		}
 	}

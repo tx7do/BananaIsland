@@ -15,23 +15,25 @@ namespace UnityEditor.FacebookEditor
             // If integrating with facebook on any platform, throw a warning if the app id is invalid
             if (!FBSettings.IsValidAppId)
             {
-                Debug.LogWarning("You didn't specify a Facebook app ID.  Please add one using the Facebook menu in the main Unity editor.");
+                Debug.LogWarning(
+                    "You didn't specify a Facebook app ID.  Please add one using the Facebook menu in the main Unity editor.");
             }
 
 
-
-            if (target == BuildTarget.iPhone)
+            if (target == BuildTarget.iOS)
             {
                 UnityEditor.XCodeEditor.XCProject project = new UnityEditor.XCodeEditor.XCProject(path);
 
                 // Find and run through all projmods files to patch the project
 
                 string projModPath = System.IO.Path.Combine(Application.dataPath, "Facebook/Editor/iOS");
-                var files = System.IO.Directory.GetFiles(projModPath, "*.projmods", System.IO.SearchOption.AllDirectories);
+                var files = System.IO.Directory.GetFiles(projModPath, "*.projmods",
+                    System.IO.SearchOption.AllDirectories);
                 foreach (var file in files)
                 {
                     project.ApplyMod(Application.dataPath, file);
                 }
+
                 project.Save();
 
                 PlistMod.UpdatePlist(path, FBSettings.AppId);
@@ -43,10 +45,12 @@ namespace UnityEditor.FacebookEditor
             if (target == BuildTarget.Android)
             {
                 // The default Bundle Identifier for Unity does magical things that causes bad stuff to happen
-                if (PlayerSettings.bundleIdentifier == "com.Company.ProductName")
+                if (PlayerSettings.applicationIdentifier == "com.Company.ProductName")
                 {
-                    Debug.LogError("The default Unity Bundle Identifier (com.Company.ProductName) will not work correctly.");
+                    Debug.LogError(
+                        "The default Unity Bundle Identifier (com.Company.ProductName) will not work correctly.");
                 }
+
                 if (!FacebookAndroidUtil.IsSetupProperly())
                 {
                     Debug.LogError("Your Android setup is not correct. See Settings in Facebook menu.");

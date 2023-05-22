@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 // Upgrade NOTE: replaced 'glstate.matrix.mvp' with 'UNITY_MATRIX_MVP'
 
 // Original shader by cboe - Mar, 23, 2009
@@ -63,7 +65,7 @@ Blend SrcAlpha OneMinusSrcAlpha
         v.vertex.y=sin(t*3.12+sinOff)*fx*0.5-fy*0.9;
         v.vertex.z-=sin(t*2.2+sinOff)*fx*0.2;
    
-          o.pos = mul( UNITY_MATRIX_MVP, v.vertex );
+          o.pos = UnityObjectToClipPos( v.vertex );
           o.uv = v.texcoord;
 // 		  o.Alpha = v.a;
          return o;

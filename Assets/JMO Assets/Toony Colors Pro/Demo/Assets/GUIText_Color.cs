@@ -1,12 +1,13 @@
 using UnityEngine;
-using System.Collections;
+using UnityEngine.UI;
 
-[RequireComponent(typeof(GUIText))]
+[RequireComponent(typeof(Text))]
 public class GUIText_Color : MonoBehaviour
 {
-	public Color labelColor;
-	void Awake()
-	{
-		this.guiText.material.color = labelColor;
-	}
+    public Color labelColor;
+
+    private void Awake()
+    {
+        GetComponent<Text>().material.color = labelColor;
+    }
 }

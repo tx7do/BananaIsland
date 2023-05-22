@@ -1,58 +1,117 @@
 fileFormatVersion: 2
 guid: 63a1ac2570de64470a06f96aa2247c2d
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: B-JungleTempleTexture
-    21300002: Mapa Jungle
-    21300004: Mapa Temple
-    21300006: Gate Left Closed Jungle
-    21300008: Gate Left Open Jungle
-    21300010: Gate Front Open Jungle
-    21300012: Gate Front Closed Jungle
-    21300014: Kovceg Jungle
-    21300016: Kovceg Otvoren Jungle
-    21300018: Kovceg Zatvoren Jungle
-    21300020: Svetlo Plava Jungle
-    21300022: Tamno Plava Jungle
-    21300024: Najtamnije Plava Jungle
-    21300026: PlavaPrelaz Jungle
-    21300028: BankInApp Jungle
-    21300030: Shop Jungle
-    21300032: FreeCoins Jungle
-    21300034: WatchVideo Jungle
-    21300036: ThreeStar Jungle
-    21300038: TwoStar Jungle
-    21300040: OneStar Jungle
-    21300042: OpenLevel Jungle
-    21300044: Facebook Picture Jungle
-    21300046: Katanac Jungle
-    21300048: BankInAppBanana Jungle
-  serializedVersion: 2
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: B-JungleTempleTexture
+  - first:
+      213: 21300002
+    second: Mapa Jungle
+  - first:
+      213: 21300004
+    second: Mapa Temple
+  - first:
+      213: 21300006
+    second: Gate Left Closed Jungle
+  - first:
+      213: 21300008
+    second: Gate Left Open Jungle
+  - first:
+      213: 21300010
+    second: Gate Front Open Jungle
+  - first:
+      213: 21300012
+    second: Gate Front Closed Jungle
+  - first:
+      213: 21300014
+    second: Kovceg Jungle
+  - first:
+      213: 21300016
+    second: Kovceg Otvoren Jungle
+  - first:
+      213: 21300018
+    second: Kovceg Zatvoren Jungle
+  - first:
+      213: 21300020
+    second: Svetlo Plava Jungle
+  - first:
+      213: 21300022
+    second: Tamno Plava Jungle
+  - first:
+      213: 21300024
+    second: Najtamnije Plava Jungle
+  - first:
+      213: 21300026
+    second: PlavaPrelaz Jungle
+  - first:
+      213: 21300028
+    second: BankInApp Jungle
+  - first:
+      213: 21300030
+    second: Shop Jungle
+  - first:
+      213: 21300032
+    second: FreeCoins Jungle
+  - first:
+      213: 21300034
+    second: WatchVideo Jungle
+  - first:
+      213: 21300036
+    second: ThreeStar Jungle
+  - first:
+      213: 21300038
+    second: TwoStar Jungle
+  - first:
+      213: 21300040
+    second: OneStar Jungle
+  - first:
+      213: 21300042
+    second: OpenLevel Jungle
+  - first:
+      213: 21300044
+    second: Facebook Picture Jungle
+  - first:
+      213: 21300046
+    second: Katanac Jungle
+  - first:
+      213: 21300048
+    second: BankInAppBanana Jungle
+  externalObjects: {}
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
   seamlessCubemap: 0
   textureFormat: 56
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
+    serializedVersion: 2
+    filterMode: 1
     aniso: 1
-    mipBias: -1
-    wrapMode: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -60,19 +119,50 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 0
   alphaIsTransparency: 1
-  textureType: 5
-  buildTargetSettings:
-  - buildTarget: iPhone
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: 33
+    textureCompression: 0
     compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: Mapa Jungle
+    - serializedVersion: 2
+      name: Mapa Jungle
       rect:
         serializedVersion: 2
         x: 6
@@ -80,9 +170,20 @@ TextureImporter:
         width: 1473
         height: 1040
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mapa Temple
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Temple
       rect:
         serializedVersion: 2
         x: 4
@@ -90,9 +191,20 @@ TextureImporter:
         width: 1475
         height: 995
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Gate Left Closed Jungle
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Left Closed Jungle
       rect:
         serializedVersion: 2
         x: 1726
@@ -100,9 +212,20 @@ TextureImporter:
         width: 81
         height: 86
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Gate Left Open Jungle
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Left Open Jungle
       rect:
         serializedVersion: 2
         x: 1724
@@ -110,9 +233,20 @@ TextureImporter:
         width: 118
         height: 113
       alignment: 9
-      pivot: {x: .558247209, y: .555536628}
+      pivot: {x: 0.5582472, y: 0.5555366}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Gate Front Open Jungle
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Front Open Jungle
       rect:
         serializedVersion: 2
         x: 1810
@@ -120,9 +254,20 @@ TextureImporter:
         width: 128
         height: 75
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Gate Front Closed Jungle
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Front Closed Jungle
       rect:
         serializedVersion: 2
         x: 1942
@@ -130,9 +275,20 @@ TextureImporter:
         width: 106
         height: 70
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Kovceg Jungle
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kovceg Jungle
       rect:
         serializedVersion: 2
         x: 1976
@@ -140,9 +296,20 @@ TextureImporter:
         width: 70
         height: 61
       alignment: 9
-      pivot: {x: .465162486, y: .342226088}
+      pivot: {x: 0.4651625, y: 0.3422261}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Kovceg Otvoren Jungle
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kovceg Otvoren Jungle
       rect:
         serializedVersion: 2
         x: 1912
@@ -150,9 +317,20 @@ TextureImporter:
         width: 56
         height: 43
       alignment: 9
-      pivot: {x: .454432905, y: .196210399}
+      pivot: {x: 0.4544329, y: 0.1962104}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Kovceg Zatvoren Jungle
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kovceg Zatvoren Jungle
       rect:
         serializedVersion: 2
         x: 1906
@@ -160,9 +338,20 @@ TextureImporter:
         width: 68
         height: 47
       alignment: 9
-      pivot: {x: .539757311, y: .387321293}
+      pivot: {x: 0.5397573, y: 0.3873213}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Svetlo Plava Jungle
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Svetlo Plava Jungle
       rect:
         serializedVersion: 2
         x: 1590
@@ -170,9 +359,20 @@ TextureImporter:
         width: 130
         height: 131
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Tamno Plava Jungle
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tamno Plava Jungle
       rect:
         serializedVersion: 2
         x: 1590
@@ -180,9 +380,20 @@ TextureImporter:
         width: 130
         height: 130
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Najtamnije Plava Jungle
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Najtamnije Plava Jungle
       rect:
         serializedVersion: 2
         x: 1590
@@ -190,9 +401,20 @@ TextureImporter:
         width: 130
         height: 130
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: PlavaPrelaz Jungle
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlavaPrelaz Jungle
       rect:
         serializedVersion: 2
         x: 1590
@@ -200,9 +422,20 @@ TextureImporter:
         width: 289
         height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BankInApp Jungle
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BankInApp Jungle
       rect:
         serializedVersion: 2
         x: 1883
@@ -210,9 +443,20 @@ TextureImporter:
         width: 162
         height: 169
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Shop Jungle
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shop Jungle
       rect:
         serializedVersion: 2
         x: 1890
@@ -220,9 +464,20 @@ TextureImporter:
         width: 156
         height: 205
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: FreeCoins Jungle
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeCoins Jungle
       rect:
         serializedVersion: 2
         x: 1857
@@ -230,9 +485,20 @@ TextureImporter:
         width: 190
         height: 279
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: WatchVideo Jungle
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WatchVideo Jungle
       rect:
         serializedVersion: 2
         x: 1747
@@ -240,9 +506,20 @@ TextureImporter:
         width: 132
         height: 169
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ThreeStar Jungle
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThreeStar Jungle
       rect:
         serializedVersion: 2
         x: 1586
@@ -250,9 +527,20 @@ TextureImporter:
         width: 142
         height: 113
       alignment: 9
-      pivot: {x: .5, y: .300000012}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TwoStar Jungle
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TwoStar Jungle
       rect:
         serializedVersion: 2
         x: 1729
@@ -260,9 +548,20 @@ TextureImporter:
         width: 142
         height: 113
       alignment: 9
-      pivot: {x: .5, y: .300000012}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: OneStar Jungle
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OneStar Jungle
       rect:
         serializedVersion: 2
         x: 1871
@@ -270,9 +569,20 @@ TextureImporter:
         width: 142
         height: 113
       alignment: 9
-      pivot: {x: .5, y: .300000012}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: OpenLevel Jungle
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenLevel Jungle
       rect:
         serializedVersion: 2
         x: 1627
@@ -280,9 +590,20 @@ TextureImporter:
         width: 142
         height: 113
       alignment: 9
-      pivot: {x: .5, y: .300000012}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Facebook Picture Jungle
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Facebook Picture Jungle
       rect:
         serializedVersion: 2
         x: 1791
@@ -290,9 +611,20 @@ TextureImporter:
         width: 94
         height: 106
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Katanac Jungle
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katanac Jungle
       rect:
         serializedVersion: 2
         x: 1904
@@ -300,9 +632,20 @@ TextureImporter:
         width: 79
         height: 68
       alignment: 9
-      pivot: {x: .448597997, y: .504264414}
+      pivot: {x: 0.448598, y: 0.5042644}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BankInAppBanana Jungle
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4305410000000000800000000000000
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BankInAppBanana Jungle
       rect:
         serializedVersion: 2
         x: 1882
@@ -310,7 +653,31 @@ TextureImporter:
         width: 162
         height: 169
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05305410000000000800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

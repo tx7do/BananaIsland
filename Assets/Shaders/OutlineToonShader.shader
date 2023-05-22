@@ -1,4 +1,6 @@
-﻿Shader "Custom/OutlineToonShader" {
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Custom/OutlineToonShader" {
     Properties {
         _MainTex ("Base (RGB)", 2D) = "white" {}
         _Bump ("Bump", 2D) = "bump" {}
@@ -111,7 +113,7 @@
                 //Store the light's direction in tangent space
                 o.lightDirection = mul(rotation, ObjSpaceLightDir(v.vertex));
                 //Transform the vertex to projection space
-                o.pos = mul( UNITY_MATRIX_MVP, v.vertex); 
+                o.pos = UnityObjectToClipPos( v.vertex); 
                 //Get the UV coordinates
                 o.uv = TRANSFORM_TEX (v.texcoord, _MainTex);  
                 o.uv2 = TRANSFORM_TEX (v.texcoord, _Bump);

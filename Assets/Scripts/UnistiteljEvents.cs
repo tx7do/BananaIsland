@@ -1,52 +1,52 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class UnistiteljEvents : MonoBehaviour {
+public class UnistiteljEvents : MonoBehaviour
+{
+    public Transform terrainPool;
+    Transform enemyPool;
+    Transform environmentPool;
+    Transform coinsPool;
+    Transform specialPool;
+    int start = 0;
+    int brojac = 0;
 
-	public Transform terrainPool;
-	Transform enemyPool;
-	Transform environmentPool;
-	Transform coinsPool;
-	Transform specialPool;
-	int start = 0;
-	int brojac = 0;
+    void Start()
+    {
+        enemyPool = GameObject.Find("__EnemiesPool").transform;
+        environmentPool = GameObject.Find("__EnvironmentPool").transform;
+        coinsPool = GameObject.Find("__CoinsPool").transform;
+        specialPool = GameObject.Find("__SpecialPool").transform;
+    }
 
-	void Start()
-	{
-		enemyPool = GameObject.Find("__EnemiesPool").transform;
-		environmentPool = GameObject.Find("__EnvironmentPool").transform;
-		coinsPool = GameObject.Find("__CoinsPool").transform;
-		specialPool = GameObject.Find("__SpecialPool").transform;
-	}
-
-	void OnTriggerEnter2D(Collider2D col)
-	{
-		if(start > 0)
-		{
-			if(col.name.Equals("__GranicaDesno"))
-			{
-				brojac++;
-				StartCoroutine(vratiNazadUPool(col));
-			}
-		}
-		else
-		{
-			if(col.name.Equals("__GranicaDesno"))
-			{
-				brojac++;
-				LevelFactory.instance.Reposition();
-				start++;
-				col.collider2D.enabled = false;
-				TrenutnoSeKoristi();
-			}
-		}
-	}
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (start > 0)
+        {
+            if (col.name.Equals("__GranicaDesno"))
+            {
+                brojac++;
+                StartCoroutine(vratiNazadUPool(col));
+            }
+        }
+        else
+        {
+            if (col.name.Equals("__GranicaDesno"))
+            {
+                brojac++;
+                LevelFactory.instance.Reposition();
+                start++;
+                col.GetComponent<Collider2D>().enabled = false;
+                TrenutnoSeKoristi();
+            }
+        }
+    }
 
 //	IEnumerator vratiNazadUPool(Collider2D col)
 //	{
 //		Transform prefab = col.transform.parent;
 //		LevelPrefabProperties prefabProperties = prefab.GetComponent<LevelPrefabProperties>();
-//		col.collider2D.enabled = false;
+//		col.GetComponent<Collider2D>().enabled = false;
 //		prefabProperties.slobodanTeren = true;
 //		prefab.parent = terrainPool;
 //		prefab.position = prefabProperties.originalPosition;
@@ -120,124 +120,130 @@ public class UnistiteljEvents : MonoBehaviour {
 //			LevelFactory.instance.Reposition();
 //	}
 
-	IEnumerator vratiNazadUPool(Collider2D col)
-	{
-		Transform prefab = col.transform.parent;
-		LevelPrefabProperties prefabProperties = prefab.GetComponent<LevelPrefabProperties>();
-		col.collider2D.enabled = false;
-		//prefabProperties.slobodanTeren = true;
-		prefabProperties.slobodanTeren = 1;
-		EntityProperties entityProperties;
-		
-		//oslobadjanje neprijatelja
-		for(int i=0;i<enemyPool.childCount;i++)
-		{
-			Transform enemy = enemyPool.GetChild(i);
-			entityProperties = enemy.GetComponent<EntityProperties>();
+    IEnumerator vratiNazadUPool(Collider2D col)
+    {
+        Transform prefab = col.transform.parent;
+        LevelPrefabProperties prefabProperties = prefab.GetComponent<LevelPrefabProperties>();
+        col.GetComponent<Collider2D>().enabled = false;
+        //prefabProperties.slobodanTeren = true;
+        prefabProperties.slobodanTeren = 1;
+        EntityProperties entityProperties;
 
-			if(!entityProperties.slobodanEntitet)
-			{
-				if(!entityProperties.trenutnoJeAktivan)
-					entityProperties.trenutnoJeAktivan = true;
-				else if(entityProperties.instanciran)
-					Destroy(entityProperties.gameObject);
-				else
-				{
-					if(entityProperties.Type == 18)
-					{
-						entityProperties.transform.GetChild(0).GetChild(0).GetComponent<BarrelExplode>().ObnoviBure();
-					}
-					entityProperties.slobodanEntitet = true;
-				}
-			}
+        //oslobadjanje neprijatelja
+        for (int i = 0; i < enemyPool.childCount; i++)
+        {
+            Transform enemy = enemyPool.GetChild(i);
+            entityProperties = enemy.GetComponent<EntityProperties>();
 
-		}
-		yield return new WaitForSeconds(0.02f);
-		//oslobadjanje environment
-		for(int i=0;i<environmentPool.childCount;i++)
-		{
-			Transform enemy = environmentPool.GetChild(i);
-			entityProperties = enemy.GetComponent<EntityProperties>();
-			if(!entityProperties.slobodanEntitet)
-			{
-				if(!entityProperties.trenutnoJeAktivan)
-					entityProperties.trenutnoJeAktivan = true;
-				else				
-					entityProperties.slobodanEntitet = true;
-			}
-		}
-		yield return new WaitForSeconds(0.02f);
-		//oslobadjanje novcica
-		for(int i=0;i<coinsPool.childCount;i++)
-		{
-			Transform enemy = coinsPool.GetChild(i);
-			entityProperties = enemy.GetComponent<EntityProperties>();
-			if(!entityProperties.slobodanEntitet)
-			{
-				if(!entityProperties.trenutnoJeAktivan)
-					entityProperties.trenutnoJeAktivan = true;
-				else
-					entityProperties.slobodanEntitet = true;
-			}
-		}
-		yield return new WaitForSeconds(0.02f);
-		//oslobadjanje special
-		for(int i=0;i<specialPool.childCount;i++)
-		{
-			Transform enemy = specialPool.GetChild(i);
-			entityProperties = enemy.GetComponent<EntityProperties>();
-			if(!entityProperties.slobodanEntitet)
-			{
+            if (!entityProperties.slobodanEntitet)
+            {
+                if (!entityProperties.trenutnoJeAktivan)
+                    entityProperties.trenutnoJeAktivan = true;
+                else if (entityProperties.instanciran)
+                    Destroy(entityProperties.gameObject);
+                else
+                {
+                    if (entityProperties.Type == 18)
+                    {
+                        entityProperties.transform.GetChild(0).GetChild(0).GetComponent<BarrelExplode>().ObnoviBure();
+                    }
 
-				if(!entityProperties.trenutnoJeAktivan)
-					entityProperties.trenutnoJeAktivan = true;
-				else
-				{
-					if(entityProperties.Type == 2)
-					{
-						entityProperties.transform.GetChild(0).GetComponent<BarrelExplode>().ObnoviBure();
-					}
-					entityProperties.slobodanEntitet = true;
-				}
-			}
-		}
-		yield return new WaitForSeconds(0.02f);
-		//pozicioniranje novog terena
-		if(!LevelFactory.trebaFinish)
-			LevelFactory.instance.Reposition();
-		
-	}
-	
-	void TrenutnoSeKoristi()
-	{
-		EntityProperties entityProperties;
-		for(int i=0;i<enemyPool.childCount;i++)
-		{
-			Transform enemy = enemyPool.GetChild(i);
-			entityProperties = enemy.GetComponent<EntityProperties>();
-			if(!entityProperties.trenutnoJeAktivan)
-				entityProperties.trenutnoJeAktivan = true;
-		}
-		for(int i=0;i<environmentPool.childCount;i++)
-		{
-			Transform enemy = environmentPool.GetChild(i);
-			entityProperties = enemy.GetComponent<EntityProperties>();
-			if(!entityProperties.trenutnoJeAktivan)
-				entityProperties.trenutnoJeAktivan = true;
-		}
-		for(int i=0;i<coinsPool.childCount;i++)
-		{
-			Transform enemy = coinsPool.GetChild(i);
-			entityProperties = enemy.GetComponent<EntityProperties>();
-			if(!entityProperties.trenutnoJeAktivan)
-				entityProperties.trenutnoJeAktivan = true;
-		}
-		for(int i=0;i<specialPool.childCount;i++)
-		{
-			Transform enemy = specialPool.GetChild(i);
-			entityProperties = enemy.GetComponent<EntityProperties>();
-			if(!entityProperties.trenutnoJeAktivan)
-				entityProperties.trenutnoJeAktivan = true;
-		}
-	}
+                    entityProperties.slobodanEntitet = true;
+                }
+            }
+        }
+
+        yield return new WaitForSeconds(0.02f);
+        //oslobadjanje environment
+        for (int i = 0; i < environmentPool.childCount; i++)
+        {
+            Transform enemy = environmentPool.GetChild(i);
+            entityProperties = enemy.GetComponent<EntityProperties>();
+            if (!entityProperties.slobodanEntitet)
+            {
+                if (!entityProperties.trenutnoJeAktivan)
+                    entityProperties.trenutnoJeAktivan = true;
+                else
+                    entityProperties.slobodanEntitet = true;
+            }
+        }
+
+        yield return new WaitForSeconds(0.02f);
+        //oslobadjanje novcica
+        for (int i = 0; i < coinsPool.childCount; i++)
+        {
+            Transform enemy = coinsPool.GetChild(i);
+            entityProperties = enemy.GetComponent<EntityProperties>();
+            if (!entityProperties.slobodanEntitet)
+            {
+                if (!entityProperties.trenutnoJeAktivan)
+                    entityProperties.trenutnoJeAktivan = true;
+                else
+                    entityProperties.slobodanEntitet = true;
+            }
+        }
+
+        yield return new WaitForSeconds(0.02f);
+        //oslobadjanje special
+        for (int i = 0; i < specialPool.childCount; i++)
+        {
+            Transform enemy = specialPool.GetChild(i);
+            entityProperties = enemy.GetComponent<EntityProperties>();
+            if (!entityProperties.slobodanEntitet)
+            {
+                if (!entityProperties.trenutnoJeAktivan)
+                    entityProperties.trenutnoJeAktivan = true;
+                else
+                {
+                    if (entityProperties.Type == 2)
+                    {
+                        entityProperties.transform.GetChild(0).GetComponent<BarrelExplode>().ObnoviBure();
+                    }
+
+                    entityProperties.slobodanEntitet = true;
+                }
+            }
+        }
+
+        yield return new WaitForSeconds(0.02f);
+        //pozicioniranje novog terena
+        if (!LevelFactory.trebaFinish)
+            LevelFactory.instance.Reposition();
+    }
+
+    void TrenutnoSeKoristi()
+    {
+        EntityProperties entityProperties;
+        for (int i = 0; i < enemyPool.childCount; i++)
+        {
+            Transform enemy = enemyPool.GetChild(i);
+            entityProperties = enemy.GetComponent<EntityProperties>();
+            if (!entityProperties.trenutnoJeAktivan)
+                entityProperties.trenutnoJeAktivan = true;
+        }
+
+        for (int i = 0; i < environmentPool.childCount; i++)
+        {
+            Transform enemy = environmentPool.GetChild(i);
+            entityProperties = enemy.GetComponent<EntityProperties>();
+            if (!entityProperties.trenutnoJeAktivan)
+                entityProperties.trenutnoJeAktivan = true;
+        }
+
+        for (int i = 0; i < coinsPool.childCount; i++)
+        {
+            Transform enemy = coinsPool.GetChild(i);
+            entityProperties = enemy.GetComponent<EntityProperties>();
+            if (!entityProperties.trenutnoJeAktivan)
+                entityProperties.trenutnoJeAktivan = true;
+        }
+
+        for (int i = 0; i < specialPool.childCount; i++)
+        {
+            Transform enemy = specialPool.GetChild(i);
+            entityProperties = enemy.GetComponent<EntityProperties>();
+            if (!entityProperties.trenutnoJeAktivan)
+                entityProperties.trenutnoJeAktivan = true;
+        }
+    }
 }

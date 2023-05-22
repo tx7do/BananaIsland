@@ -1,118 +1,297 @@
 fileFormatVersion: 2
 guid: 1671ca7b5d4cb4012b1bcc30ad0dfad1
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Drvo1
-    21300002: Zbun 1
-    21300004: Zbun 1 Blur
-    21300006: Drvo2
-    21300008: Zombi
-    21300010: Panj
-    21300012: Strelice Panj
-    21300014: Finish Natpis
-    21300016: Platforma Kamena
-    21300018: Kamen 1
-    21300020: Zbun leteci
-    21300022: Kaktus
-    21300024: Listici 1
-    21300026: Listici 3
-    21300028: Listici 2
-    21300030: Teren Platforma 1
-    21300032: Teren Platforma 2 manja
-    21300034: Lijana pozadina
-    21300036: Teren sa strane
-    21300038: 'Zbun 2 '
-    21300040: Zbun 2 Blur
-    21300042: Kamen 2
-    21300044: Zbun 3
-    21300046: Listici 4
-    21300048: Teren Nepropusno
-    21300050: Teren Gore Propusno
-    21300052: Teren Dole Propusno
-    21300054: Senka 1
-    21300056: Lijana razvucena 1
-    21300058: Lijana razvucena 2
-    21300060: Lijana i lisce razvuceno
-    21300062: Cvet Crveni
-    21300064: Cvet Ljubicasti
-    21300066: Cvet Plavi
-    21300068: Cvet Beli
-    21300070: Cvet Drska 1
-    21300072: Cvet Drska 2
-    21300074: Grana 1
-    21300076: Grana 2
-    21300078: Grana 3
-    21300080: Grana 4
-    21300082: Grana 5
-    21300084: Grana 6
-    21300086: Grana 7
-    21300088: Travica 1
-    21300090: ravica 2
-    21300092: Razvuceno
-    21300094: Lijancica 1
-    21300096: Lijancica 2
-    21300098: Lijancica 3
-    21300100: Lijancica 4
-    21300102: Lijancica 5
-    21300104: Lijancica 6
-    21300106: Cudna travica
-    21300108: Zbun J 1
-    21300110: Zbun J 2
-    21300112: List J 1
-    21300114: List J 1 senka
-    21300116: List J 2
-    21300118: List J 2 senka
-    21300120: List J 3
-    21300122: List J 3 senka
-    21300124: Zeleno za drvo 1
-    21300126: Zeleno za drvo 2
-    21300128: Zeleno za drvo 3
-    21300130: Zeleno za drvo 4
-    21300132: Cudna travica 2
-    21300134: Cudna travica 3
-    21300136: Cudna travica 4
-    21300138: Cudna travica 5
-    21300140: Most
-    21300142: Most drvo
-    21300144: Most drvo 2
-    21300146: WhiteGradiantBonusTexture
-    21300148: Textura_Ostrvo_Bonus_74
-    21300150: Textura_Ostrvo_Bonus_75
-    21300152: CoinsBagBig
-    21300154: CoinsBagMedium
-    21300156: CoinsBagSmall
-    21300158: BonusTemple
-    21300160: ZnakPitanja2
-    21300162: ZnakPitanja1
-    21300164: BonusLevelKovcegFinish
-    21300166: KovcegSenka
-    21300168: BonusLevelCompletedPicture
-  serializedVersion: 2
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Drvo1
+  - first:
+      213: 21300002
+    second: Zbun 1
+  - first:
+      213: 21300004
+    second: Zbun 1 Blur
+  - first:
+      213: 21300006
+    second: Drvo2
+  - first:
+      213: 21300008
+    second: Zombi
+  - first:
+      213: 21300010
+    second: Panj
+  - first:
+      213: 21300012
+    second: Strelice Panj
+  - first:
+      213: 21300014
+    second: Finish Natpis
+  - first:
+      213: 21300016
+    second: Platforma Kamena
+  - first:
+      213: 21300018
+    second: Kamen 1
+  - first:
+      213: 21300020
+    second: Zbun leteci
+  - first:
+      213: 21300022
+    second: Kaktus
+  - first:
+      213: 21300024
+    second: Listici 1
+  - first:
+      213: 21300026
+    second: Listici 3
+  - first:
+      213: 21300028
+    second: Listici 2
+  - first:
+      213: 21300030
+    second: Teren Platforma 1
+  - first:
+      213: 21300032
+    second: Teren Platforma 2 manja
+  - first:
+      213: 21300034
+    second: Lijana pozadina
+  - first:
+      213: 21300036
+    second: Teren sa strane
+  - first:
+      213: 21300038
+    second: 'Zbun 2 '
+  - first:
+      213: 21300040
+    second: Zbun 2 Blur
+  - first:
+      213: 21300042
+    second: Kamen 2
+  - first:
+      213: 21300044
+    second: Zbun 3
+  - first:
+      213: 21300046
+    second: Listici 4
+  - first:
+      213: 21300048
+    second: Teren Nepropusno
+  - first:
+      213: 21300050
+    second: Teren Gore Propusno
+  - first:
+      213: 21300052
+    second: Teren Dole Propusno
+  - first:
+      213: 21300054
+    second: Senka 1
+  - first:
+      213: 21300056
+    second: Lijana razvucena 1
+  - first:
+      213: 21300058
+    second: Lijana razvucena 2
+  - first:
+      213: 21300060
+    second: Lijana i lisce razvuceno
+  - first:
+      213: 21300062
+    second: Cvet Crveni
+  - first:
+      213: 21300064
+    second: Cvet Ljubicasti
+  - first:
+      213: 21300066
+    second: Cvet Plavi
+  - first:
+      213: 21300068
+    second: Cvet Beli
+  - first:
+      213: 21300070
+    second: Cvet Drska 1
+  - first:
+      213: 21300072
+    second: Cvet Drska 2
+  - first:
+      213: 21300074
+    second: Grana 1
+  - first:
+      213: 21300076
+    second: Grana 2
+  - first:
+      213: 21300078
+    second: Grana 3
+  - first:
+      213: 21300080
+    second: Grana 4
+  - first:
+      213: 21300082
+    second: Grana 5
+  - first:
+      213: 21300084
+    second: Grana 6
+  - first:
+      213: 21300086
+    second: Grana 7
+  - first:
+      213: 21300088
+    second: Travica 1
+  - first:
+      213: 21300090
+    second: ravica 2
+  - first:
+      213: 21300092
+    second: Razvuceno
+  - first:
+      213: 21300094
+    second: Lijancica 1
+  - first:
+      213: 21300096
+    second: Lijancica 2
+  - first:
+      213: 21300098
+    second: Lijancica 3
+  - first:
+      213: 21300100
+    second: Lijancica 4
+  - first:
+      213: 21300102
+    second: Lijancica 5
+  - first:
+      213: 21300104
+    second: Lijancica 6
+  - first:
+      213: 21300106
+    second: Cudna travica
+  - first:
+      213: 21300108
+    second: Zbun J 1
+  - first:
+      213: 21300110
+    second: Zbun J 2
+  - first:
+      213: 21300112
+    second: List J 1
+  - first:
+      213: 21300114
+    second: List J 1 senka
+  - first:
+      213: 21300116
+    second: List J 2
+  - first:
+      213: 21300118
+    second: List J 2 senka
+  - first:
+      213: 21300120
+    second: List J 3
+  - first:
+      213: 21300122
+    second: List J 3 senka
+  - first:
+      213: 21300124
+    second: Zeleno za drvo 1
+  - first:
+      213: 21300126
+    second: Zeleno za drvo 2
+  - first:
+      213: 21300128
+    second: Zeleno za drvo 3
+  - first:
+      213: 21300130
+    second: Zeleno za drvo 4
+  - first:
+      213: 21300132
+    second: Cudna travica 2
+  - first:
+      213: 21300134
+    second: Cudna travica 3
+  - first:
+      213: 21300136
+    second: Cudna travica 4
+  - first:
+      213: 21300138
+    second: Cudna travica 5
+  - first:
+      213: 21300140
+    second: Most
+  - first:
+      213: 21300142
+    second: Most drvo
+  - first:
+      213: 21300144
+    second: Most drvo 2
+  - first:
+      213: 21300146
+    second: WhiteGradiantBonusTexture
+  - first:
+      213: 21300148
+    second: Textura_Ostrvo_Bonus_74
+  - first:
+      213: 21300150
+    second: Textura_Ostrvo_Bonus_75
+  - first:
+      213: 21300152
+    second: CoinsBagBig
+  - first:
+      213: 21300154
+    second: CoinsBagMedium
+  - first:
+      213: 21300156
+    second: CoinsBagSmall
+  - first:
+      213: 21300158
+    second: BonusTemple
+  - first:
+      213: 21300160
+    second: ZnakPitanja2
+  - first:
+      213: 21300162
+    second: ZnakPitanja1
+  - first:
+      213: 21300164
+    second: BonusLevelKovcegFinish
+  - first:
+      213: 21300166
+    second: KovcegSenka
+  - first:
+      213: 21300168
+    second: BonusLevelCompletedPicture
+  externalObjects: {}
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
   seamlessCubemap: 0
   textureFormat: 54
   maxTextureSize: 1024
   textureSettings:
-    filterMode: -1
+    serializedVersion: 2
+    filterMode: 1
     aniso: 1
-    mipBias: -1
-    wrapMode: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -120,19 +299,50 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 0
   alphaIsTransparency: 1
-  textureType: 5
-  buildTargetSettings:
-  - buildTarget: iPhone
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
     textureFormat: 33
+    textureCompression: 0
     compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: Drvo2
+    - serializedVersion: 2
+      name: Drvo2
       rect:
         serializedVersion: 2
         x: 157
@@ -140,9 +350,20 @@ TextureImporter:
         width: 199
         height: 281
       alignment: 9
-      pivot: {x: .359945565, y: .0246686283}
+      pivot: {x: 0.35994557, y: 0.024668628}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Panj
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panj
       rect:
         serializedVersion: 2
         x: 0
@@ -150,9 +371,20 @@ TextureImporter:
         width: 169
         height: 98
       alignment: 9
-      pivot: {x: .533911228, y: .24192743}
+      pivot: {x: 0.5339112, y: 0.24192743}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Strelice Panj
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strelice Panj
       rect:
         serializedVersion: 2
         x: 169
@@ -160,9 +392,20 @@ TextureImporter:
         width: 67
         height: 95
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Kamen 1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kamen 1
       rect:
         serializedVersion: 2
         x: 0
@@ -170,9 +413,20 @@ TextureImporter:
         width: 196
         height: 102
       alignment: 9
-      pivot: {x: .38745895, y: .25457412}
+      pivot: {x: 0.38745895, y: 0.25457412}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Teren Platforma 1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teren Platforma 1
       rect:
         serializedVersion: 2
         x: 273
@@ -180,9 +434,20 @@ TextureImporter:
         width: 288
         height: 140
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Kamen 2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kamen 2
       rect:
         serializedVersion: 2
         x: 196
@@ -190,9 +455,20 @@ TextureImporter:
         width: 212
         height: 103
       alignment: 9
-      pivot: {x: .405714065, y: .145694926}
+      pivot: {x: 0.40571406, y: 0.14569493}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Teren Nepropusno
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teren Nepropusno
       rect:
         serializedVersion: 2
         x: 15
@@ -200,9 +476,20 @@ TextureImporter:
         width: 241
         height: 250
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Teren Gore Propusno
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05305410000000000800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teren Gore Propusno
       rect:
         serializedVersion: 2
         x: 0
@@ -210,9 +497,20 @@ TextureImporter:
         width: 269
         height: 93
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Teren Dole Propusno
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25305410000000000800000000000000
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teren Dole Propusno
       rect:
         serializedVersion: 2
         x: 9
@@ -220,9 +518,20 @@ TextureImporter:
         width: 254
         height: 43
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Senka 1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45305410000000000800000000000000
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Senka 1
       rect:
         serializedVersion: 2
         x: 8
@@ -230,9 +539,20 @@ TextureImporter:
         width: 125
         height: 114
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Grana 1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65305410000000000800000000000000
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grana 1
       rect:
         serializedVersion: 2
         x: 356
@@ -240,9 +560,20 @@ TextureImporter:
         width: 197
         height: 106
       alignment: 9
-      pivot: {x: .112897381, y: .754882216}
+      pivot: {x: 0.11289738, y: 0.7548822}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Grana 2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6305410000000000800000000000000
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grana 2
       rect:
         serializedVersion: 2
         x: 358
@@ -250,9 +581,20 @@ TextureImporter:
         width: 142
         height: 62
       alignment: 9
-      pivot: {x: .91485554, y: .650745034}
+      pivot: {x: 0.91485554, y: 0.65074503}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Grana 3
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6305410000000000800000000000000
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grana 3
       rect:
         serializedVersion: 2
         x: 358
@@ -260,9 +602,20 @@ TextureImporter:
         width: 111
         height: 50
       alignment: 9
-      pivot: {x: .0739666373, y: .396068126}
+      pivot: {x: 0.07396664, y: 0.39606813}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Grana 4
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6305410000000000800000000000000
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grana 4
       rect:
         serializedVersion: 2
         x: 358
@@ -270,9 +623,20 @@ TextureImporter:
         width: 139
         height: 48
       alignment: 9
-      pivot: {x: .911247611, y: .586612701}
+      pivot: {x: 0.9112476, y: 0.5866127}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Grana 5
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07305410000000000800000000000000
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grana 5
       rect:
         serializedVersion: 2
         x: 359
@@ -280,9 +644,20 @@ TextureImporter:
         width: 129
         height: 43
       alignment: 9
-      pivot: {x: .916942537, y: .15557009}
+      pivot: {x: 0.91694254, y: 0.15557009}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Grana 6
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27305410000000000800000000000000
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grana 6
       rect:
         serializedVersion: 2
         x: 502
@@ -290,9 +665,20 @@ TextureImporter:
         width: 48
         height: 53
       alignment: 9
-      pivot: {x: .142729446, y: .808859766}
+      pivot: {x: 0.14272945, y: 0.80885977}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Grana 7
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47305410000000000800000000000000
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grana 7
       rect:
         serializedVersion: 2
         x: 502
@@ -300,9 +686,20 @@ TextureImporter:
         width: 47
         height: 112
       alignment: 9
-      pivot: {x: .32862106, y: .912950218}
+      pivot: {x: 0.32862106, y: 0.9129502}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Travica 1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67305410000000000800000000000000
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Travica 1
       rect:
         serializedVersion: 2
         x: 270
@@ -310,9 +707,20 @@ TextureImporter:
         width: 63
         height: 118
       alignment: 9
-      pivot: {x: .86238122, y: .468905687}
+      pivot: {x: 0.8623812, y: 0.4689057}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ravica 2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87305410000000000800000000000000
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ravica 2
       rect:
         serializedVersion: 2
         x: 268
@@ -320,9 +728,20 @@ TextureImporter:
         width: 25
         height: 44
       alignment: 9
-      pivot: {x: .728299558, y: .12938343}
+      pivot: {x: 0.72829956, y: 0.12938343}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Most
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7305410000000000800000000000000
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Most
       rect:
         serializedVersion: 2
         x: 134
@@ -330,9 +749,20 @@ TextureImporter:
         width: 352
         height: 133
       alignment: 9
-      pivot: {x: .495472908, y: .384502858}
+      pivot: {x: 0.4954729, y: 0.38450286}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Most drvo
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca305410000000000800000000000000
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Most drvo
       rect:
         serializedVersion: 2
         x: 333
@@ -340,9 +770,20 @@ TextureImporter:
         width: 83
         height: 31
       alignment: 9
-      pivot: {x: .920976698, y: .153883934}
+      pivot: {x: 0.9209767, y: 0.15388393}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Most drvo 2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea305410000000000800000000000000
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Most drvo 2
       rect:
         serializedVersion: 2
         x: 334
@@ -350,9 +791,20 @@ TextureImporter:
         width: 119
         height: 21
       alignment: 9
-      pivot: {x: .93911463, y: .5}
+      pivot: {x: 0.93911463, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: WhiteGradiantBonusTexture
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b305410000000000800000000000000
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteGradiantBonusTexture
       rect:
         serializedVersion: 2
         x: 843
@@ -360,9 +812,20 @@ TextureImporter:
         width: 179
         height: 80
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Textura_Ostrvo_Bonus_74
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b305410000000000800000000000000
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Bonus_74
       rect:
         serializedVersion: 2
         x: 273
@@ -370,9 +833,20 @@ TextureImporter:
         width: 91
         height: 103
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Textura_Ostrvo_Bonus_75
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b305410000000000800000000000000
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Bonus_75
       rect:
         serializedVersion: 2
         x: 478
@@ -380,9 +854,20 @@ TextureImporter:
         width: 84
         height: 106
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: CoinsBagBig
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b305410000000000800000000000000
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinsBagBig
       rect:
         serializedVersion: 2
         x: 840
@@ -390,9 +875,20 @@ TextureImporter:
         width: 184
         height: 202
       alignment: 9
-      pivot: {x: .484520286, y: .145921379}
+      pivot: {x: 0.4845203, y: 0.14592138}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: CoinsBagMedium
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b305410000000000800000000000000
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinsBagMedium
       rect:
         serializedVersion: 2
         x: 677
@@ -400,9 +896,20 @@ TextureImporter:
         width: 159
         height: 181
       alignment: 9
-      pivot: {x: .496019274, y: .164289221}
+      pivot: {x: 0.49601927, y: 0.16428922}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: CoinsBagSmall
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab305410000000000800000000000000
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinsBagSmall
       rect:
         serializedVersion: 2
         x: 882
@@ -410,9 +917,20 @@ TextureImporter:
         width: 142
         height: 153
       alignment: 9
-      pivot: {x: .484399498, y: .169043452}
+      pivot: {x: 0.4843995, y: 0.16904345}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BonusTemple
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb305410000000000800000000000000
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonusTemple
       rect:
         serializedVersion: 2
         x: 557
@@ -420,9 +938,20 @@ TextureImporter:
         width: 467
         height: 520
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ZnakPitanja2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb305410000000000800000000000000
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZnakPitanja2
       rect:
         serializedVersion: 2
         x: 20
@@ -430,9 +959,20 @@ TextureImporter:
         width: 38
         height: 34
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ZnakPitanja1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c305410000000000800000000000000
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZnakPitanja1
       rect:
         serializedVersion: 2
         x: 2
@@ -440,9 +980,20 @@ TextureImporter:
         width: 78
         height: 79
       alignment: 9
-      pivot: {x: .465849847, y: .159447774}
+      pivot: {x: 0.46584985, y: 0.15944777}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BonusLevelKovcegFinish
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c305410000000000800000000000000
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonusLevelKovcegFinish
       rect:
         serializedVersion: 2
         x: 4
@@ -450,9 +1001,20 @@ TextureImporter:
         width: 89
         height: 84
       alignment: 9
-      pivot: {x: .480426133, y: .223479494}
+      pivot: {x: 0.48042613, y: 0.2234795}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: KovcegSenka
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c305410000000000800000000000000
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KovcegSenka
       rect:
         serializedVersion: 2
         x: 0
@@ -460,9 +1022,20 @@ TextureImporter:
         width: 152
         height: 36
       alignment: 9
-      pivot: {x: .2841506, y: .548389018}
+      pivot: {x: 0.2841506, y: 0.548389}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BonusLevelCompletedPicture
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c305410000000000800000000000000
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BonusLevelCompletedPicture
       rect:
         serializedVersion: 2
         x: 517
@@ -470,7 +1043,31 @@ TextureImporter:
         width: 351
         height: 172
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c305410000000000800000000000000
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

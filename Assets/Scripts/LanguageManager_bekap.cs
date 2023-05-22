@@ -26,14 +26,14 @@
 //		{
 //			string oldText=toAdjust.text;
 //			//provera ako treba da se poveca tekst
-//			while(((toAdjust.renderer.bounds.size.x *1.1f)<toAdjust.collider.bounds.size.x)&&((toAdjust.renderer.bounds.size.y *1.1f)<toAdjust.collider.bounds.size.y))
+//			while(((toAdjust.GetComponent<Renderer>().bounds.size.x *1.1f)<toAdjust.collider.bounds.size.x)&&((toAdjust.GetComponent<Renderer>().bounds.size.y *1.1f)<toAdjust.collider.bounds.size.y))
 //			{
 //				toAdjust.characterSize*=1.1f;
 //			}
 //			//ako se ne deli u nove redovima
 //			if(!rowSplit)
 //			{
-//				while(((toAdjust.renderer.bounds.size.x )>toAdjust.collider.bounds.size.x)&&((toAdjust.renderer.bounds.size.y )>toAdjust.collider.bounds.size.y))
+//				while(((toAdjust.GetComponent<Renderer>().bounds.size.x )>toAdjust.collider.bounds.size.x)&&((toAdjust.GetComponent<Renderer>().bounds.size.y )>toAdjust.collider.bounds.size.y))
 //				{
 //					toAdjust.characterSize*=0.9f;
 //				}
@@ -55,7 +55,7 @@
 //				//za slucaj da je samo jedna rec
 //				if(wholeText.Length==1)
 //				{
-//					while(((toAdjust.renderer.bounds.size.x )>toAdjust.collider.bounds.size.x)&&((toAdjust.renderer.bounds.size.y )>toAdjust.collider.bounds.size.y))
+//					while(((toAdjust.GetComponent<Renderer>().bounds.size.x )>toAdjust.collider.bounds.size.x)&&((toAdjust.GetComponent<Renderer>().bounds.size.y )>toAdjust.collider.bounds.size.y))
 //					{
 //						toAdjust.characterSize*=0.9f;
 //					}
@@ -75,7 +75,7 @@
 //						while((counter<wholeText.Length))
 //						{
 //							int helpCounter=0;
-//							while(((toAdjust.renderer.bounds.size.x<toAdjust.collider.bounds.size.x)||toAdjust.text==wholeText[((counter<wholeText.Length)?counter:wholeText.Length-1)])&&counter<wholeText.Length)
+//							while(((toAdjust.GetComponent<Renderer>().bounds.size.x<toAdjust.collider.bounds.size.x)||toAdjust.text==wholeText[((counter<wholeText.Length)?counter:wholeText.Length-1)])&&counter<wholeText.Length)
 //							{
 //								previous=toAdjust.text;
 //								toAdjust.text+=((!hasWhiteSpaces)?"":" ")+wholeText[counter];
@@ -92,7 +92,7 @@
 //						toAdjust.text=helpText;
 //						charSize*=0.9f;
 //					}
-//					while(((toAdjust.renderer.bounds.size.y>toAdjust.collider.bounds.size.y)||(toAdjust.renderer.bounds.size.x>toAdjust.collider.bounds.size.x)) ||again);
+//					while(((toAdjust.GetComponent<Renderer>().bounds.size.y>toAdjust.collider.bounds.size.y)||(toAdjust.GetComponent<Renderer>().bounds.size.x>toAdjust.collider.bounds.size.x)) ||again);
 //				}
 //			}
 //		}
@@ -231,14 +231,14 @@
 //	public IEnumerator helpfunk(TextMesh toAdjust)
 //	{
 //		//Debug.Log(toAdjust.text);
-//		//	Bounds newBounds=toAdjust.renderer.bounds;
+//		//	Bounds newBounds=toAdjust.GetComponent<Renderer>().bounds;
 //	//	float oldCharSize=toAdjust.characterSize;
 //		string oldText=toAdjust.text;
-//		while(((toAdjust.renderer.bounds.size.x *1.1f)<toAdjust.collider.bounds.size.x)&&((toAdjust.renderer.bounds.size.y *1.1f)<toAdjust.collider.bounds.size.y))
+//		while(((toAdjust.GetComponent<Renderer>().bounds.size.x *1.1f)<toAdjust.collider.bounds.size.x)&&((toAdjust.GetComponent<Renderer>().bounds.size.y *1.1f)<toAdjust.collider.bounds.size.y))
 //		{
 //			toAdjust.characterSize*=1.1f;
 //		}
-//		while(((toAdjust.renderer.bounds.size.x *0.9f)>toAdjust.collider.bounds.size.x)&&((toAdjust.renderer.bounds.size.y *0.9f)>toAdjust.collider.bounds.size.y))
+//		while(((toAdjust.GetComponent<Renderer>().bounds.size.x *0.9f)>toAdjust.collider.bounds.size.x)&&((toAdjust.GetComponent<Renderer>().bounds.size.y *0.9f)>toAdjust.collider.bounds.size.y))
 //		{
 //			toAdjust.characterSize*=0.9f;
 //		}
@@ -265,7 +265,7 @@
 //			while((counter<wholeText.Length))
 //			{
 //				int helpCounter=0;
-//				while(((toAdjust.renderer.bounds.size.x<toAdjust.collider.bounds.size.x)||toAdjust.text==wholeText[((counter<wholeText.Length)?counter:wholeText.Length-1)])&&counter<wholeText.Length)
+//				while(((toAdjust.GetComponent<Renderer>().bounds.size.x<toAdjust.collider.bounds.size.x)||toAdjust.text==wholeText[((counter<wholeText.Length)?counter:wholeText.Length-1)])&&counter<wholeText.Length)
 //				{
 //					previous=toAdjust.text;
 //					toAdjust.text+=((chosenLanguage=="_jp"||chosenLanguage=="_zh")?"":" ")+wholeText[counter];
@@ -291,7 +291,7 @@
 //			charSize*=0.9f;
 //			Debug.Log("enddd");
 //		}
-//		while(toAdjust.renderer.bounds.size.y>toAdjust.collider.bounds.size.y ||again);
+//		while(toAdjust.GetComponent<Renderer>().bounds.size.y>toAdjust.collider.bounds.size.y ||again);
 //	}
 //	
 //	public  void AdjustFontSize(TextMesh toAdjust,bool rowSplit)
@@ -302,13 +302,13 @@
 //		string oldText=toAdjust.text;
 //		
 //		//larger
-//		while(((toAdjust.renderer.bounds.size.x *1.1f)<toAdjust.collider.bounds.size.x)&&((toAdjust.renderer.bounds.size.y *1.1f)<toAdjust.collider.bounds.size.y))
+//		while(((toAdjust.GetComponent<Renderer>().bounds.size.x *1.1f)<toAdjust.collider.bounds.size.x)&&((toAdjust.GetComponent<Renderer>().bounds.size.y *1.1f)<toAdjust.collider.bounds.size.y))
 //		{
 //			toAdjust.characterSize*=1.1f;
 //		}
 //		if(!rowSplit)
 //		{
-//			while(((toAdjust.renderer.bounds.size.x )>toAdjust.collider.bounds.size.x)&&((toAdjust.renderer.bounds.size.y )>toAdjust.collider.bounds.size.y))
+//			while(((toAdjust.GetComponent<Renderer>().bounds.size.x )>toAdjust.collider.bounds.size.x)&&((toAdjust.GetComponent<Renderer>().bounds.size.y )>toAdjust.collider.bounds.size.y))
 //			{
 //				toAdjust.characterSize*=0.9f;
 //			}
@@ -340,7 +340,7 @@
 //				while((counter<wholeText.Length))
 //				{
 //					int helpCounter=0;
-//					while(((toAdjust.renderer.bounds.size.x<toAdjust.collider.bounds.size.x)||toAdjust.text==wholeText[((counter<wholeText.Length)?counter:wholeText.Length-1)])&&counter<wholeText.Length)
+//					while(((toAdjust.GetComponent<Renderer>().bounds.size.x<toAdjust.collider.bounds.size.x)||toAdjust.text==wholeText[((counter<wholeText.Length)?counter:wholeText.Length-1)])&&counter<wholeText.Length)
 //					{
 //						previous=toAdjust.text;
 //						toAdjust.text+=((chosenLanguage=="_jp"||chosenLanguage=="_zh")?"":" ")+wholeText[counter];
@@ -366,27 +366,27 @@
 //				charSize*=0.9f;
 //				Debug.Log("enddd");
 //			}
-//			while(((toAdjust.renderer.bounds.size.y>toAdjust.collider.bounds.size.y)||(toAdjust.renderer.bounds.size.x>toAdjust.collider.bounds.size.x)) ||again);
-//			Debug.Log((toAdjust.renderer.bounds.size.y>toAdjust.collider.bounds.size.y)+"###"+(toAdjust.renderer.bounds.size.x>toAdjust.collider.bounds.size.x)+"###"+again);
+//			while(((toAdjust.GetComponent<Renderer>().bounds.size.y>toAdjust.collider.bounds.size.y)||(toAdjust.GetComponent<Renderer>().bounds.size.x>toAdjust.collider.bounds.size.x)) ||again);
+//			Debug.Log((toAdjust.GetComponent<Renderer>().bounds.size.y>toAdjust.collider.bounds.size.y)+"###"+(toAdjust.GetComponent<Renderer>().bounds.size.x>toAdjust.collider.bounds.size.x)+"###"+again);
 //		}
 //		//toAdjust.text=previous;
-//	/*	while((toAdjust.renderer.bounds.size.x>toAdjust.collider.bounds.size.x) && (toAdjust.renderer.bounds.size.y<toAdjust.collider.bounds.size.y ))
+//	/*	while((toAdjust.GetComponent<Renderer>().bounds.size.x>toAdjust.collider.bounds.size.x) && (toAdjust.GetComponent<Renderer>().bounds.size.y<toAdjust.collider.bounds.size.y ))
 //		{
 //			
 //		}
 //		
-//		if(toAdjust.renderer.bounds.size.x>toAdjust.collider.bounds.size.x )
+//		if(toAdjust.GetComponent<Renderer>().bounds.size.x>toAdjust.collider.bounds.size.x )
 //		{
 //			toAdjust.characterSize*=0.9f;
 //			AdjustFontSize(toAdjust);
 //		}
 //		else
-//		if(toAdjust.renderer.bounds.size.y>toAdjust.collider.bounds.size.y )
+//		if(toAdjust.GetComponent<Renderer>().bounds.size.y>toAdjust.collider.bounds.size.y )
 //		{
 //			toAdjust.characterSize*=0.9f;
 //			AdjustFontSize(toAdjust);
 //		}
-//		else  if(((toAdjust.renderer.bounds.size.x *1.1f)<toAdjust.collider.bounds.size.x)&&((toAdjust.renderer.bounds.size.y *1.1f)<toAdjust.collider.bounds.size.y))
+//		else  if(((toAdjust.GetComponent<Renderer>().bounds.size.x *1.1f)<toAdjust.collider.bounds.size.x)&&((toAdjust.GetComponent<Renderer>().bounds.size.y *1.1f)<toAdjust.collider.bounds.size.y))
 //		{
 //			toAdjust.characterSize*=1.1f;
 //			AdjustFontSize(toAdjust);

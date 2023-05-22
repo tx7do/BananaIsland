@@ -1,43 +1,72 @@
 fileFormatVersion: 2
 guid: 49b20c985d5de41a3bad935efc567fc2
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: TipsAndTricks_Bg7
-    21300002: TipsAndTricks_Bg9
-    21300004: TipsAndTricks_Bg10
-    21300006: TipsAndTricks_Bg6
-    21300008: TipsAndTricks_Bg16
-    21300010: TipsAndTricks_Bg17
-    21300012: TipsAndTricks_Bg18
-    21300014: TipsAndTricks_Bg12
-    21300016: TipsAndTricks_Bg19
-    21300018: TipsAndTricks_Bg23
-  serializedVersion: 2
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: TipsAndTricks_Bg7
+  - first:
+      213: 21300002
+    second: TipsAndTricks_Bg9
+  - first:
+      213: 21300004
+    second: TipsAndTricks_Bg10
+  - first:
+      213: 21300006
+    second: TipsAndTricks_Bg6
+  - first:
+      213: 21300008
+    second: TipsAndTricks_Bg16
+  - first:
+      213: 21300010
+    second: TipsAndTricks_Bg17
+  - first:
+      213: 21300012
+    second: TipsAndTricks_Bg18
+  - first:
+      213: 21300014
+    second: TipsAndTricks_Bg12
+  - first:
+      213: 21300016
+    second: TipsAndTricks_Bg19
+  - first:
+      213: 21300018
+    second: TipsAndTricks_Bg23
+  externalObjects: {}
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
   seamlessCubemap: 0
   textureFormat: -3
   maxTextureSize: 1024
   textureSettings:
-    filterMode: -1
+    serializedVersion: 2
+    filterMode: 1
     aniso: 1
-    mipBias: -1
-    wrapMode: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -45,15 +74,38 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: TipsAndTricks_Bg7
+    - serializedVersion: 2
+      name: TipsAndTricks_Bg7
       rect:
         serializedVersion: 2
         x: 1
@@ -61,9 +113,20 @@ TextureImporter:
         width: 508
         height: 192
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TipsAndTricks_Bg9
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TipsAndTricks_Bg9
       rect:
         serializedVersion: 2
         x: 515
@@ -71,9 +134,20 @@ TextureImporter:
         width: 506
         height: 191
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TipsAndTricks_Bg10
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TipsAndTricks_Bg10
       rect:
         serializedVersion: 2
         x: 1
@@ -81,9 +155,20 @@ TextureImporter:
         width: 509
         height: 190
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TipsAndTricks_Bg6
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TipsAndTricks_Bg6
       rect:
         serializedVersion: 2
         x: 513
@@ -91,9 +176,20 @@ TextureImporter:
         width: 507
         height: 191
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TipsAndTricks_Bg16
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TipsAndTricks_Bg16
       rect:
         serializedVersion: 2
         x: 1
@@ -101,9 +197,20 @@ TextureImporter:
         width: 509
         height: 190
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TipsAndTricks_Bg17
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TipsAndTricks_Bg17
       rect:
         serializedVersion: 2
         x: 513
@@ -111,9 +218,20 @@ TextureImporter:
         width: 508
         height: 191
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TipsAndTricks_Bg18
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TipsAndTricks_Bg18
       rect:
         serializedVersion: 2
         x: 2
@@ -121,9 +239,20 @@ TextureImporter:
         width: 508
         height: 191
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TipsAndTricks_Bg12
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TipsAndTricks_Bg12
       rect:
         serializedVersion: 2
         x: 513
@@ -131,9 +260,20 @@ TextureImporter:
         width: 508
         height: 191
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TipsAndTricks_Bg19
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TipsAndTricks_Bg19
       rect:
         serializedVersion: 2
         x: 1
@@ -141,9 +281,20 @@ TextureImporter:
         width: 509
         height: 191
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TipsAndTricks_Bg23
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TipsAndTricks_Bg23
       rect:
         serializedVersion: 2
         x: 513
@@ -151,7 +302,31 @@ TextureImporter:
         width: 508
         height: 192
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

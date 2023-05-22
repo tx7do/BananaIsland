@@ -27,13 +27,13 @@ public class TextMeshEffects : MonoBehaviour {
 				else
 					ArialFont = (Font)Resources.Load("ARIBLK");//(Font)Resources.GetBuiltinResource (typeof(Font), "Arial.ttf");
 				thisComponent.font = ArialFont;
-				thisComponent.renderer.sharedMaterial = ArialFont.material;
+				thisComponent.GetComponent<Renderer>().sharedMaterial = ArialFont.material;
 			}
 			else
 			{
 				Font EnglishFont = (Font)Resources.Load("SOUPOFJUSTICE");
 				thisComponent.font = EnglishFont;
-				thisComponent.renderer.sharedMaterial = EnglishFont.material;
+				thisComponent.GetComponent<Renderer>().sharedMaterial = EnglishFont.material;
 			}
 		}
 
@@ -56,13 +56,13 @@ public class TextMeshEffects : MonoBehaviour {
 						else
 							ArialFont = (Font)Resources.Load("ARIBLK");//(Font)Resources.GetBuiltinResource (typeof(Font), "Arial.ttf");
 						myTransform.GetChild(i).GetComponent<TextMesh>().font = ArialFont;
-						myTransform.GetChild(i).GetComponent<TextMesh>().renderer.sharedMaterial = ArialFont.material;
+						myTransform.GetChild(i).GetComponent<TextMesh>().GetComponent<Renderer>().sharedMaterial = ArialFont.material;
 					}
 					else
 					{
 						Font EnglishFont = (Font)Resources.Load("SOUPOFJUSTICE");
 						myTransform.GetChild(i).GetComponent<TextMesh>().font = EnglishFont;
-						myTransform.GetChild(i).GetComponent<TextMesh>().renderer.sharedMaterial = EnglishFont.material;
+						myTransform.GetChild(i).GetComponent<TextMesh>().GetComponent<Renderer>().sharedMaterial = EnglishFont.material;
 					}
 				}
 

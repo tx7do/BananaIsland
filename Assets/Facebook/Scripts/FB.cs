@@ -27,51 +27,43 @@ public sealed class FB : ScriptableObject
             {
                 throw new NullReferenceException("Facebook object is not yet loaded.  Did you call FB.Init()?");
             }
+
             return facebook;
         }
     }
 
-    public static string AppId 
+    public static string AppId
     {
-        get 
+        get
         {
             // appId might be different from FBSettings.AppId
             // if using the programmatic version of FB.Init()
             return appId;
-        } 
+        }
     }
+
     public static string UserId
     {
-        get
-        {
-            return (facebook != null) ? facebook.UserId : "";
-        }
+        get { return (facebook != null) ? facebook.UserId : ""; }
     }
+
     public static string AccessToken
     {
-        get
-        {
-            return (facebook != null) ? facebook.AccessToken : "";
-        }
+        get { return (facebook != null) ? facebook.AccessToken : ""; }
     }
 
     public static DateTime AccessTokenExpiresAt
     {
-        get
-        {
-            return (facebook != null) ? facebook.AccessTokenExpiresAt : DateTime.MinValue;
-        }
+        get { return (facebook != null) ? facebook.AccessTokenExpiresAt : DateTime.MinValue; }
     }
 
     public static bool IsLoggedIn
     {
-        get
-        {
-            return (facebook != null) && facebook.IsLoggedIn;
-        }
+        get { return (facebook != null) && facebook.IsLoggedIn; }
     }
 
     #region Init
+
     /**
      * This is the preferred way to call FB.Init().  It will take the facebook app id specified in your
      * "Facebook" => "Edit Settings" menu when it is called.
@@ -79,7 +71,8 @@ public sealed class FB : ScriptableObject
      * onInitComplete - Delegate is called when FB.Init() finished initializing everything.
      *                  By passing in a delegate you can find out when you can safely call the other methods.
      */
-    public static void Init(InitDelegate onInitComplete, HideUnityDelegate onHideUnity = null, string authResponse = null)
+    public static void Init(InitDelegate onInitComplete, HideUnityDelegate onHideUnity = null,
+        string authResponse = null)
     {
         Init(
             onInitComplete,
@@ -120,7 +113,7 @@ public sealed class FB : ScriptableObject
 
         if (!isInitCalled)
         {
-            var versionInfo = FBBuildVersionAttribute.GetVersionAttributeOfType(typeof (IFacebook));
+            var versionInfo = FBBuildVersionAttribute.GetVersionAttributeOfType(typeof(IFacebook));
 
             if (versionInfo == null)
             {
@@ -128,7 +121,8 @@ public sealed class FB : ScriptableObject
             }
             else
             {
-                FbDebug.Info(String.Format("Using SDK {0}, Build {1}", versionInfo.SdkVersion, versionInfo.BuildVersion));
+                FbDebug.Info(
+                    String.Format("Using SDK {0}, Build {1}", versionInfo.SdkVersion, versionInfo.BuildVersion));
             }
 
 #if UNITY_EDITOR
@@ -164,8 +158,10 @@ public sealed class FB : ScriptableObject
         }
         else
         {
-            FbDebug.Log(string.Format("Finished loading Facebook dll. Version {0} Build {1}", versionInfo.SdkVersion, versionInfo.BuildVersion));
+            FbDebug.Log(string.Format("Finished loading Facebook dll. Version {0} Build {1}", versionInfo.SdkVersion,
+                versionInfo.BuildVersion));
         }
+
         FacebookImpl.Init(
             OnInitComplete,
             appId,
@@ -179,6 +175,7 @@ public sealed class FB : ScriptableObject
             OnHideUnity
         );
     }
+
     #endregion
 
     public static void Login(string scope = "", FacebookDelegate callback = null)
@@ -192,36 +189,38 @@ public sealed class FB : ScriptableObject
     }
 
     public static void AppRequest(
-            string message,
-            string[] to = null,
-            string filters = "",
-            string[] excludeIds = null,
-            int? maxRecipients = null,
-            string data = "",
-            string title = "",
-            FacebookDelegate callback = null)
+        string message,
+        string[] to = null,
+        string filters = "",
+        string[] excludeIds = null,
+        int? maxRecipients = null,
+        string data = "",
+        string title = "",
+        FacebookDelegate callback = null)
     {
         FacebookImpl.AppRequest(message, to, filters, excludeIds, maxRecipients, data, title, callback);
     }
 
     public static void Feed(
-            string toId = "",
-            string link = "",
-            string linkName = "",
-            string linkCaption = "",
-            string linkDescription = "",
-            string picture = "",
-            string mediaSource = "",
-            string actionName = "",
-            string actionLink = "",
-            string reference = "",
-            Dictionary<string, string[]> properties = null,
-            FacebookDelegate callback = null)
+        string toId = "",
+        string link = "",
+        string linkName = "",
+        string linkCaption = "",
+        string linkDescription = "",
+        string picture = "",
+        string mediaSource = "",
+        string actionName = "",
+        string actionLink = "",
+        string reference = "",
+        Dictionary<string, string[]> properties = null,
+        FacebookDelegate callback = null)
     {
-        FacebookImpl.FeedRequest(toId, link, linkName, linkCaption, linkDescription, picture, mediaSource, actionName, actionLink, reference, properties, callback);
+        FacebookImpl.FeedRequest(toId, link, linkName, linkCaption, linkDescription, picture, mediaSource, actionName,
+            actionLink, reference, properties, callback);
     }
 
-    public static void API(string query, HttpMethod method, FacebookDelegate callback = null, Dictionary<string, string> formData = null)
+    public static void API(string query, HttpMethod method, FacebookDelegate callback = null,
+        Dictionary<string, string> formData = null)
     {
         FacebookImpl.API(query, method, formData, callback);
     }
@@ -242,9 +241,9 @@ public sealed class FB : ScriptableObject
     }
 
     #region App Events
+
     public sealed class AppEvents
     {
-
         // If the player has set the limitEventUsage flag to YES, your app will continue
         // to send this data to Facebook, but Facebook will not use the data to serve
         // targeted ads. Facebook may continue to use the information for other purposes,
@@ -253,14 +252,8 @@ public sealed class FB : ScriptableObject
 
         public static bool LimitEventUsage
         {
-            get
-            {
-                return (facebook != null) && facebook.LimitEventUsage;
-            }
-            set
-            {
-                facebook.LimitEventUsage = value;
-            }
+            get { return (facebook != null) && facebook.LimitEventUsage; }
+            set { facebook.LimitEventUsage = value; }
         }
 
         public static void LogEvent(
@@ -279,9 +272,11 @@ public sealed class FB : ScriptableObject
             FacebookImpl.AppEventsLogPurchase(logPurchase, currency, parameters);
         }
     }
+
     #endregion
 
     #region Canvas-Only Implemented Methods
+
     public sealed class Canvas
     {
         public static void Pay(
@@ -295,10 +290,12 @@ public sealed class FB : ScriptableObject
             string testCurrency = null,
             FacebookDelegate callback = null)
         {
-            FacebookImpl.Pay(product, action, quantity, quantityMin, quantityMax, requestId, pricepointId, testCurrency, callback);
+            FacebookImpl.Pay(product, action, quantity, quantityMin, quantityMax, requestId, pricepointId, testCurrency,
+                callback);
         }
 
-        public static void SetResolution(int width, int height, bool fullscreen, int preferredRefreshRate = 0, params FBScreen.Layout[] layoutParams)
+        public static void SetResolution(int width, int height, bool fullscreen, int preferredRefreshRate = 0,
+            params FBScreen.Layout[] layoutParams)
         {
             FBScreen.SetResolution(width, height, fullscreen, preferredRefreshRate, layoutParams);
         }
@@ -308,23 +305,27 @@ public sealed class FB : ScriptableObject
             FBScreen.SetAspectRatio(width, height, layoutParams);
         }
     }
+
     #endregion
 
     #region Android-Only Implemented Methods
+
     public sealed class Android
     {
-         public static string KeyHash
-         {
-             get
-             {
+        public static string KeyHash
+        {
+            get
+            {
                 var androidFacebook = facebook as AndroidFacebook;
                 return (androidFacebook != null) ? androidFacebook.KeyHash : "";
-             }
-         }
+            }
+        }
     }
+
     #endregion
 
     #region Facebook Loader Class
+
     public abstract class RemoteFacebookLoader : MonoBehaviour
     {
         public delegate void LoadedDllCallback(IFacebook fb);
@@ -347,63 +348,46 @@ public sealed class FB : ScriptableObject
                 if (retryLoadCount < maxRetryLoadCount)
                 {
                     ++retryLoadCount;
-#if UNITY_WEBPLAYER
-                    FBComponentFactory.AddComponent<CanvasFacebookLoader>();
-#endif
                 }
+
                 www.Dispose();
                 yield break;
             }
-
-#if !UNITY_WINRT
-			//#if UNITY_4_5
-//			var authTokenWww = new WWW(IntegratedPluginCanvasLocation.KeyUrl);
-//			yield return authTokenWww;
-//			if (authTokenWww.error != null)
-//			{
-//				FbDebug.Error("Cannot load from " + IntegratedPluginCanvasLocation.KeyUrl + ": " + authTokenWww.error);
-//				authTokenWww.Dispose();
-//				yield break;
-//			}
-//			var assembly = Security.LoadAndVerifyAssembly(www.bytes, authTokenWww.text);
-//			//#else
-//			//var assembly = Security.LoadAndVerifyAssembly(www.bytes);
-//			//#endif
-            //var assembly = Security.LoadAndVerifyAssembly(www.bytes);
-			//var assembly = Security.LoadAndVerifyAssembly(www.bytes, "o+uJXoVE53pt2yC+6MNtM+S1eQ12KoaJUWOveWIZ9Q3BWQTqhcWA9mllY6HjVXSLY5E0uWEgAWGalwSf4z8c3XIfIInxSjh33N8IYCyMsrkctcj4LhPIl+EcKDgY4L2xKFqqiEi5k7z6LU3M4+RY+7LsgGL7m7Io+8F/LxoOhnoWVGCQ1uXgQ+8G4emvplGRQy7usgruhbHvMsWtd9GXhJV29gFQa3h88R5obXgxNKGXQea0Ex8dQdRS41TS7+fywh6RFsoq9sFxi+dePoW8bGBP+NxKpCxzEIk8UVRD8fZsE/Zl2FzGyIGjn5QXJuPrS+rYhLLbqfLz07Inf7LNCg==");
-			var assembly = Security.LoadAndVerifyAssembly(www.bytes, "B8GvecdX0rQ47kzhCEwlrRzYKA8LKeiZxy1HI3HfnhdgUATvBwQQViji8ot44dADM55QuHk5+hwrLsoau32IDmRDQTclMSsTsIywGRo/nE5vbmRMMIECYXBFhliz+kvK0RWZ57XPxw0s7YhGnNLav0EE2QH/m+9ajlLOY+2ckxSoSEHLpotllyZLktRK+oFiDPvmzXLDUMOnwK9RFRSh2VBmoyWTZx8BYqWjqug3kAljJk/XwTYZT9Ie+HvzLO5DBSqMNYbEX03WaNfpaq9GKBF/Oz37AHelf1Es36amP1v2Aut3nmIk2xxN6zwzBXyEyw90vJ/O8suikU+8kDDbZA==");
-            if (assembly == null)
-            {
-                FbDebug.Error("Could not securely load assembly from " + url);
-                www.Dispose();
-                yield break;
-            }
-
-            var facebookClass = assembly.GetType(facebookNamespace + className);
-            if (facebookClass == null)
-            {
-                FbDebug.Error(className + " not found in assembly!");
-                www.Dispose();
-                yield break;
-            }
-
-            // load the Facebook component into the gameobject
-            // using the "as" cast so it'll null if it fails to cast, instead of exception
-            var fb = typeof(FBComponentFactory)
-                    .GetMethod("GetComponent")
-                    .MakeGenericMethod(facebookClass)
-                    .Invoke(null, new object[] { IfNotExist.AddNew }) as IFacebook;
-
-            if (fb == null)
-            {
-                FbDebug.Error(className + " couldn't be created.");
-                www.Dispose();
-                yield break;
-            }
-
-            callback(fb);
-#endif
-            www.Dispose();
+//
+// #if !UNITY_WINRT
+//             var assembly = Security.LoadAndVerifyAssembly(www.bytes);
+//             if (assembly == null)
+//             {
+//                 FbDebug.Error("Could not securely load assembly from " + url);
+//                 www.Dispose();
+//                 yield break;
+//             }
+//
+//             var facebookClass = assembly.GetType(facebookNamespace + className);
+//             if (facebookClass == null)
+//             {
+//                 FbDebug.Error(className + " not found in assembly!");
+//                 www.Dispose();
+//                 yield break;
+//             }
+//
+//             // load the Facebook component into the gameobject
+//             // using the "as" cast so it'll null if it fails to cast, instead of exception
+//             var fb = typeof(FBComponentFactory)
+//                 .GetMethod("GetComponent")
+//                 .MakeGenericMethod(facebookClass)
+//                 .Invoke(null, new object[] {IfNotExist.AddNew}) as IFacebook;
+//
+//             if (fb == null)
+//             {
+//                 FbDebug.Error(className + " couldn't be created.");
+//                 www.Dispose();
+//                 yield break;
+//             }
+//
+//             callback(fb);
+// #endif
+//             www.Dispose();
         }
 
         protected abstract string className { get; }
@@ -415,6 +399,7 @@ public sealed class FB : ScriptableObject
             {
                 yield return loader.Current;
             }
+
             Destroy(this);
         }
 
@@ -436,5 +421,6 @@ public sealed class FB : ScriptableObject
             Destroy(this);
         }
     }
+
     #endregion
 }

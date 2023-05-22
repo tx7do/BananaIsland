@@ -1,53 +1,102 @@
 fileFormatVersion: 2
 guid: 6bed25b5545b90a4d9f28bb9670ca155
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: BananaAllMapls
-    21300002: SavanaAllMapls
-    21300004: JungleAllMapls
-    21300006: TempleAllMapls
-    21300008: VolcanoAllMapls
-    21300010: AllMapsKatanac
-    21300012: WhiteCircleAllMaps
-    21300014: WhiteSquareAllMaps
-    21300016: Cloud1AllMapls
-    21300018: Cloud2AllMapls
-    21300020: Cloud3AllMapls
-    21300022: WhiteGradiantAllMaps
-    21300024: BelaSenkaAllMaps
-    21300026: AllMapsKatanacOtvoren
-    21300028: BananaVrhAllMaps
-    21300030: ostrvceVolcano
-    21300032: ostrvceBanana
-    21300034: ostrvceSavanna
-    21300036: ostrvceJungle
-    21300038: ostrvceTemple
-  serializedVersion: 2
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: BananaAllMapls
+  - first:
+      213: 21300002
+    second: SavanaAllMapls
+  - first:
+      213: 21300004
+    second: JungleAllMapls
+  - first:
+      213: 21300006
+    second: TempleAllMapls
+  - first:
+      213: 21300008
+    second: VolcanoAllMapls
+  - first:
+      213: 21300010
+    second: AllMapsKatanac
+  - first:
+      213: 21300012
+    second: WhiteCircleAllMaps
+  - first:
+      213: 21300014
+    second: WhiteSquareAllMaps
+  - first:
+      213: 21300016
+    second: Cloud1AllMapls
+  - first:
+      213: 21300018
+    second: Cloud2AllMapls
+  - first:
+      213: 21300020
+    second: Cloud3AllMapls
+  - first:
+      213: 21300022
+    second: WhiteGradiantAllMaps
+  - first:
+      213: 21300024
+    second: BelaSenkaAllMaps
+  - first:
+      213: 21300026
+    second: AllMapsKatanacOtvoren
+  - first:
+      213: 21300028
+    second: BananaVrhAllMaps
+  - first:
+      213: 21300030
+    second: ostrvceVolcano
+  - first:
+      213: 21300032
+    second: ostrvceBanana
+  - first:
+      213: 21300034
+    second: ostrvceSavanna
+  - first:
+      213: 21300036
+    second: ostrvceJungle
+  - first:
+      213: 21300038
+    second: ostrvceTemple
+  externalObjects: {}
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
   seamlessCubemap: 0
   textureFormat: 56
   maxTextureSize: 1024
   textureSettings:
-    filterMode: -1
+    serializedVersion: 2
+    filterMode: 1
     aniso: 1
-    mipBias: -1
-    wrapMode: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -55,19 +104,50 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 0
   alphaIsTransparency: 1
-  textureType: 5
-  buildTargetSettings:
-  - buildTarget: iPhone
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
     textureFormat: 33
+    textureCompression: 0
     compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: BananaAllMapls
+    - serializedVersion: 2
+      name: BananaAllMapls
       rect:
         serializedVersion: 2
         x: 0
@@ -75,9 +155,20 @@ TextureImporter:
         width: 496
         height: 336
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SavanaAllMapls
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SavanaAllMapls
       rect:
         serializedVersion: 2
         x: 505
@@ -85,9 +176,20 @@ TextureImporter:
         width: 493
         height: 337
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: JungleAllMapls
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JungleAllMapls
       rect:
         serializedVersion: 2
         x: 21
@@ -95,9 +197,20 @@ TextureImporter:
         width: 450
         height: 355
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TempleAllMapls
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TempleAllMapls
       rect:
         serializedVersion: 2
         x: 546
@@ -105,9 +218,20 @@ TextureImporter:
         width: 447
         height: 334
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: VolcanoAllMapls
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VolcanoAllMapls
       rect:
         serializedVersion: 2
         x: 22
@@ -115,9 +239,20 @@ TextureImporter:
         width: 449
         height: 314
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: AllMapsKatanac
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllMapsKatanac
       rect:
         serializedVersion: 2
         x: 502
@@ -125,9 +260,20 @@ TextureImporter:
         width: 89
         height: 113
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: WhiteCircleAllMaps
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteCircleAllMaps
       rect:
         serializedVersion: 2
         x: 501
@@ -135,9 +281,20 @@ TextureImporter:
         width: 82
         height: 82
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: WhiteSquareAllMaps
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSquareAllMaps
       rect:
         serializedVersion: 2
         x: 985
@@ -145,9 +302,20 @@ TextureImporter:
         width: 39
         height: 39
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Cloud1AllMapls
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud1AllMapls
       rect:
         serializedVersion: 2
         x: 776
@@ -155,9 +323,20 @@ TextureImporter:
         width: 245
         height: 95
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Cloud2AllMapls
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud2AllMapls
       rect:
         serializedVersion: 2
         x: 797
@@ -165,9 +344,20 @@ TextureImporter:
         width: 227
         height: 102
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Cloud3AllMapls
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud3AllMapls
       rect:
         serializedVersion: 2
         x: 595
@@ -175,9 +365,20 @@ TextureImporter:
         width: 113
         height: 226
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: WhiteGradiantAllMaps
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteGradiantAllMaps
       rect:
         serializedVersion: 2
         x: 585
@@ -185,9 +386,20 @@ TextureImporter:
         width: 179
         height: 80
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BelaSenkaAllMaps
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BelaSenkaAllMaps
       rect:
         serializedVersion: 2
         x: 957
@@ -195,9 +407,20 @@ TextureImporter:
         width: 67
         height: 67
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: AllMapsKatanacOtvoren
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllMapsKatanacOtvoren
       rect:
         serializedVersion: 2
         x: 503
@@ -205,9 +428,20 @@ TextureImporter:
         width: 86
         height: 115
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BananaVrhAllMaps
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaVrhAllMaps
       rect:
         serializedVersion: 2
         x: 68
@@ -215,9 +449,20 @@ TextureImporter:
         width: 336
         height: 123
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ostrvceVolcano
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ostrvceVolcano
       rect:
         serializedVersion: 2
         x: 709
@@ -225,9 +470,20 @@ TextureImporter:
         width: 81
         height: 56
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ostrvceBanana
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ostrvceBanana
       rect:
         serializedVersion: 2
         x: 792
@@ -235,9 +491,20 @@ TextureImporter:
         width: 81
         height: 56
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ostrvceSavanna
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ostrvceSavanna
       rect:
         serializedVersion: 2
         x: 878
@@ -245,9 +512,20 @@ TextureImporter:
         width: 78
         height: 51
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ostrvceJungle
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ostrvceJungle
       rect:
         serializedVersion: 2
         x: 875
@@ -255,9 +533,20 @@ TextureImporter:
         width: 81
         height: 56
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ostrvceTemple
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ostrvceTemple
       rect:
         serializedVersion: 2
         x: 791
@@ -265,7 +554,31 @@ TextureImporter:
         width: 81
         height: 56
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

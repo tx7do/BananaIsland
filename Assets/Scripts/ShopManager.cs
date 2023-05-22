@@ -66,39 +66,39 @@ public class ShopManager : MonoBehaviour {
 		shopHolder.gameObject.SetActive(false);
 		desnaGranica = shopLevaIvica.transform.position.x + 3.5f;
 
-		transform.Find("HolderFrame/ShopRamDesnoHolder/ShopRamDesno/FinishCoins/TextFreeCoinsUp1").renderer.sortingLayerID = 1;
-		transform.Find("HolderHeader/ShopHeaderOff/TextFreeCoinsDown").renderer.sortingLayerID = 1;
-		transform.Find("HolderHeader/ShopHeaderOff/TextFreeCoinsUp").renderer.sortingLayerID = 1;
-		transform.Find("HolderHeader/ShopHeaderOff1/TextShopDown").renderer.sortingLayerID = 1;
-		transform.Find("HolderHeader/ShopHeaderOff1/TextShopUp").renderer.sortingLayerID = 1;
-		transform.Find("HolderHeader/ShopHeaderOn/TextShopDown").renderer.sortingLayerID = 1;
-		transform.Find("HolderHeader/ShopHeaderOn/TextShopUp").renderer.sortingLayerID = 1;
-		transform.Find("HolderHeader/ShopHeaderOn1/TextFreeCoinsDown").renderer.sortingLayerID = 1;
-		transform.Find("HolderHeader/ShopHeaderOn1/TextFreeCoinsUp").renderer.sortingLayerID = 1;
-		transform.Find("HolderFrame/ShopBackground").renderer.sortingLayerID = 1;
-		transform.Find("HolderFrame/ShopBackground_Dif").renderer.sortingLayerID = 1;
+		transform.Find("HolderFrame/ShopRamDesnoHolder/ShopRamDesno/FinishCoins/TextFreeCoinsUp1").GetComponent<Renderer>().sortingLayerID = 1;
+		transform.Find("HolderHeader/ShopHeaderOff/TextFreeCoinsDown").GetComponent<Renderer>().sortingLayerID = 1;
+		transform.Find("HolderHeader/ShopHeaderOff/TextFreeCoinsUp").GetComponent<Renderer>().sortingLayerID = 1;
+		transform.Find("HolderHeader/ShopHeaderOff1/TextShopDown").GetComponent<Renderer>().sortingLayerID = 1;
+		transform.Find("HolderHeader/ShopHeaderOff1/TextShopUp").GetComponent<Renderer>().sortingLayerID = 1;
+		transform.Find("HolderHeader/ShopHeaderOn/TextShopDown").GetComponent<Renderer>().sortingLayerID = 1;
+		transform.Find("HolderHeader/ShopHeaderOn/TextShopUp").GetComponent<Renderer>().sortingLayerID = 1;
+		transform.Find("HolderHeader/ShopHeaderOn1/TextFreeCoinsDown").GetComponent<Renderer>().sortingLayerID = 1;
+		transform.Find("HolderHeader/ShopHeaderOn1/TextFreeCoinsUp").GetComponent<Renderer>().sortingLayerID = 1;
+		transform.Find("HolderFrame/ShopBackground").GetComponent<Renderer>().sortingLayerID = 1;
+		transform.Find("HolderFrame/ShopBackground_Dif").GetComponent<Renderer>().sortingLayerID = 1;
 
-		transform.Find("HolderFreeCoinsCard/HolderFreeCoinsCardAnimation/Card3_FC_WatchVideo/HolderCard_NotAvailable/ShopTextOnCard").renderer.sortingLayerID = 1;
-		//transform.Find("HolderFreeCoinsCard/HolderFreeCoinsCardAnimation/Card3_FC_WatchVideo/HolderCard_NotAvailable/ShopTextOnCard").renderer.sortingLayerID = 1;
+		transform.Find("HolderFreeCoinsCard/HolderFreeCoinsCardAnimation/Card3_FC_WatchVideo/HolderCard_NotAvailable/ShopTextOnCard").GetComponent<Renderer>().sortingLayerID = 1;
+		//transform.Find("HolderFreeCoinsCard/HolderFreeCoinsCardAnimation/Card3_FC_WatchVideo/HolderCard_NotAvailable/ShopTextOnCard").GetComponent<Renderer>().sortingLayerID = 1;
 
 		Transform scrollholder = transform.Find("HolderFreeCoinsCard").GetChild(0);
 
 		foreach (Transform child in scrollholder.transform)
 		{
-			child.Find("HolderCard/ShopPriceButton/ShopTextCoins1").renderer.sortingLayerID = 1;
-			child.Find("HolderCard/ShopPriceButton/ShopTextCoins2").renderer.sortingLayerID = 1;
-			child.Find("HolderCard/ShopTextOnCard").renderer.sortingLayerID = 1;
-			child.Find("HolderCard/ShopCardShine").renderer.sortingLayerID = 1;
+			child.Find("HolderCard/ShopPriceButton/ShopTextCoins1").GetComponent<Renderer>().sortingLayerID = 1;
+			child.Find("HolderCard/ShopPriceButton/ShopTextCoins2").GetComponent<Renderer>().sortingLayerID = 1;
+			child.Find("HolderCard/ShopTextOnCard").GetComponent<Renderer>().sortingLayerID = 1;
+			child.Find("HolderCard/ShopCardShine").GetComponent<Renderer>().sortingLayerID = 1;
 		}
 		scrollholder = transform.Find("HolderShopCard").GetChild(0);
 		
 		foreach (Transform child in scrollholder.transform)
 		{
-			child.Find("HolderCard/ShopPriceButton/ShopTextCoins1").renderer.sortingLayerID = 1;
-			child.Find("HolderCard/ShopPriceButton/ShopTextCoins2").renderer.sortingLayerID = 1;
-			child.Find("HolderCard/ShopBuyCoins/ShopTextCoins1").renderer.sortingLayerID = 1;
-			child.Find("HolderCard/ShopBuyCoins/ShopTextCoins2").renderer.sortingLayerID = 1;
-			child.Find("HolderCard/ShopCardShine").renderer.sortingLayerID = 1;
+			child.Find("HolderCard/ShopPriceButton/ShopTextCoins1").GetComponent<Renderer>().sortingLayerID = 1;
+			child.Find("HolderCard/ShopPriceButton/ShopTextCoins2").GetComponent<Renderer>().sortingLayerID = 1;
+			child.Find("HolderCard/ShopBuyCoins/ShopTextCoins1").GetComponent<Renderer>().sortingLayerID = 1;
+			child.Find("HolderCard/ShopBuyCoins/ShopTextCoins2").GetComponent<Renderer>().sortingLayerID = 1;
+			child.Find("HolderCard/ShopCardShine").GetComponent<Renderer>().sortingLayerID = 1;
 		}
 
 
@@ -207,7 +207,7 @@ public class ShopManager : MonoBehaviour {
 					}
 					else
 					{
-						buttonShopBack.GetChild(0).animation.Play("BackButtonClick");
+						buttonShopBack.GetChild(0).GetComponent<Animation>().Play("BackButtonClick");
 						StartCoroutine(CloseShop());
 					}
 				}
@@ -223,7 +223,7 @@ public class ShopManager : MonoBehaviour {
 					if(Time.timeScale == 0)
 						StartCoroutine(PausedAnim(holderShopCard.transform.GetChild(0),"DolazakShop_A"));
 					else
-						holderShopCard.transform.GetChild(0).animation.Play("DolazakShop_A");
+						holderShopCard.transform.GetChild(0).GetComponent<Animation>().Play("DolazakShop_A");
 				}
 				else if(releasedItem == "ShopHeaderOff") // TREBA DA SE AKTIVIRA FREE COINS TAB
 				{
@@ -237,7 +237,7 @@ public class ShopManager : MonoBehaviour {
 					if(Time.timeScale == 0)
 						StartCoroutine(PausedAnim(holderFreeCoinsCard.transform.GetChild(0),"DolazakShop_A"));
 					else
-						holderFreeCoinsCard.transform.GetChild(0).animation.Play("DolazakShop_A");
+						holderFreeCoinsCard.transform.GetChild(0).GetComponent<Animation>().Play("DolazakShop_A");
 				}
 				else if(releasedItem.StartsWith("Card")) // KLIKNUTO NA BILO KOJU KARTICU
 				{
@@ -251,7 +251,7 @@ public class ShopManager : MonoBehaviour {
 					else
 					{
 						temp = GameObject.Find(releasedItem);
-						temp.transform.GetChild(0).animation.Play("ShopCardClick");
+						temp.transform.GetChild(0).GetComponent<Animation>().Play("ShopCardClick");
 					}
 					if(releasedItem.Contains("LikeBananaIsland"))
 					{
@@ -297,7 +297,7 @@ public class ShopManager : MonoBehaviour {
 				}
 				else
 				{
-					buttonShopBack.GetChild(0).animation.Play("BackButtonClick");
+					buttonShopBack.GetChild(0).GetComponent<Animation>().Play("BackButtonClick");
 					StartCoroutine(CloseShop());
 				}
 			}
@@ -322,7 +322,7 @@ public class ShopManager : MonoBehaviour {
 		yield return new WaitForSeconds(0.25f);
 		shopHolder.gameObject.SetActive(true);
 		otvorenShop = true;
-		holderShopCard.transform.GetChild(0).animation.Play("DolazakShop_A");
+		holderShopCard.transform.GetChild(0).GetComponent<Animation>().Play("DolazakShop_A");
 
 		if(PlayerPrefs.HasKey("otisaoDaLajkuje"))
 		{
@@ -357,7 +357,7 @@ public class ShopManager : MonoBehaviour {
 		otvorenShop = true;
 		if(videoNotAvailable)
 			ResetVideoNotAvailable();
-		holderFreeCoinsCard.transform.GetChild(0).animation.Play("DolazakShop_A");
+		holderFreeCoinsCard.transform.GetChild(0).GetComponent<Animation>().Play("DolazakShop_A");
 
 		if(PlayerPrefs.HasKey("otisaoDaLajkuje"))
 		{
@@ -478,7 +478,7 @@ public class ShopManager : MonoBehaviour {
 	}
 	IEnumerator PausedAnim(Transform obj, string ime)
 	{
-		StartCoroutine( obj.animation.Play(ime, false, what => {helpBool=true;}) );
+		StartCoroutine( obj.GetComponent<Animation>().Play(ime, false, what => {helpBool=true;}) );
 		//animation.Play(
 		while(!helpBool)
 		{
